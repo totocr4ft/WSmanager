@@ -10,5 +10,16 @@
     <Transaction>2018/06/30 16:01:23.047,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
     <Transaction>2018/06/30 16:01:43.653,D:\Programming20180304\GIT\WSmanager\WScommon\WSCommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
     <Transaction>2018/06/30 16:05:27.026,D:\Programming20180304\GIT\WSmanager\HTMLtools\WSHtmlCommon.pas=D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas</Transaction>
-  </Transactions>
+    <Transaction>2018/06/30 16:13:33.021,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:13:46.244,D:\Programming20180304\GIT\WSmanager\WSDB\WSDBcommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="HTMLtools"/>
+    <File Path="HTMLtools\WSHtmlCommon.pas"/>
+    <File Path="WScommon"/>
+    <File Path="WScommon\WSCommon.pas"/>
+    <File Path="main.pas"/>
+    <File Path="main.dfm"/>
+    <File Path="WSDB"/>
+    <File Path="WSDB\WSDBcommon.pas"/>
+  </ProjectSortOrder>
 </BorlandProject>
