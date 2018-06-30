@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2018/06/30 15:40:56.530,=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/06/30 15:48:23.391,D:\Programming20180304\GIT\WSmanager\main.dfm=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2018/06/30 15:48:23.391,D:\Programming20180304\GIT\WSmanager\main.pas=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/06/30 15:48:27.907,D:\Programming20180304\GIT\WSmanager\wsm.dproj=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
