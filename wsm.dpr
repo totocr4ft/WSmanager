@@ -2,7 +2,9 @@ program wsm;
 
 uses
   Vcl.Forms,
-  main in 'main.pas' {Form2};
+  main in 'main.pas' {Form2},
+  WSHtmlCommon in 'HTMLtools\WSHtmlCommon.pas',
+  WSCommon in 'WScommon\WSCommon.pas';
 
 {$R *.res}
 

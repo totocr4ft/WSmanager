@@ -2,8 +2,8 @@ object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'Webshop Manager | V 1.0'
-  ClientHeight = 729
-  ClientWidth = 1041
+  ClientHeight = 620
+  ClientWidth = 1062
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

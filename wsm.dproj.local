@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2018/06/30 15:40:56.530,=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2018/06/30 15:48:23.391,D:\Programming20180304\GIT\WSmanager\main.dfm=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2018/06/30 15:48:23.391,D:\Programming20180304\GIT\WSmanager\main.pas=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2018/06/30 15:48:27.907,D:\Programming20180304\GIT\WSmanager\wsm.dproj=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2018/06/30 15:40:56.000.530,=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/06/30 15:48:23.000.391,C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Programming20180304\GIT\WSmanager\main.pas</Transaction>
+    <Transaction>2018/06/30 15:48:23.000.391,C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Programming20180304\GIT\WSmanager\main.dfm</Transaction>
+    <Transaction>2018/06/30 15:48:27.000.907,C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Programming20180304\GIT\WSmanager\wsm.dproj</Transaction>
+    <Transaction>2018/06/30 15:59:31.864,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 15:59:57.692,D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:01:23.047,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:01:43.653,D:\Programming20180304\GIT\WSmanager\WScommon\WSCommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:05:27.026,D:\Programming20180304\GIT\WSmanager\HTMLtools\WSHtmlCommon.pas=D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas</Transaction>
   </Transactions>
 </BorlandProject>
