@@ -93,6 +93,7 @@
         <DCCReference Include="HTMLtools\WSHtmlCommon.pas"/>
         <DCCReference Include="WScommon\WSCommon.pas"/>
         <DCCReference Include="WSDB\WSDBcommon.pas"/>
+        <DCCReference Include="WScommon\WSHelpers.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

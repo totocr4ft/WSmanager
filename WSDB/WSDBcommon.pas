@@ -7,32 +7,33 @@ uses System.Classes,forms,Vcl.Dialogs,System.SysUtils, FireDAC.Stan.Intf, FireDA
   FireDAC.Stan.Async, FireDAC.DApt, FireDAC.UI.Intf, FireDAC.Stan.Def,
   FireDAC.Stan.Pool, FireDAC.Phys, Data.DB, FireDAC.Comp.Client,
   FireDAC.Comp.DataSet, FireDAC.Phys.MySQL, FireDAC.Phys.MySQLDef,
-  FireDAC.VCLUI.Wait, FireDAC.Comp.UI;
+  FireDAC.VCLUI.Wait, FireDAC.Comp.UI, WSCommon;
 
  type
   Tresultset = array of TStringList;
-  Tdatabase = Class
+  Tdatabase = Class(TWSCommon)
 
    private
     CONN : TFDConnection;
+    QUERY: TFDQuery;
    public
-   constructor create();
-   destructor destroy;
-   property con:TFDConnection Read CONN;
-  End;
-
+    constructor create();
+    destructor destroy;
+    property con:TFDConnection Read CONN;
     function convert_result(Q:TFDQuery):Tresultset;
     function run_query(str:string;params:array of string):Tresultset;
     function run_query_not_conv(str:string;params:array of string; out con:Tdatabase):TFDquery;
     function exec_query(str:string;params:array of string):boolean;
     function exec_query_ret_id(str:string;params:array of string):integer;
-    procedure free_result(res:Tresultset);
+
     //*******  TRANSCTION FUNCTIONS *******//
     function begin_trans():Tdatabase;
     function commit_trans(db:Tdatabase):Boolean;
     function rollback_trans(db:Tdatabase):Boolean;
     function trans_exec_query(db:Tdatabase;str:string;params:array of string):boolean;
     function trans_run_query(db:Tdatabase;str:string;params:array of string):Tresultset;
+   End;
+    procedure free_result(res:Tresultset);
 
 implementation
 
@@ -43,6 +44,7 @@ var con:TFDConnection;
     f : TextFile;
     data    : TStringList;
 begin
+ inherited;
  inipath := ExtractFilePath(Application.ExeName)+'db.ini';
  if(FileExists(inipath)) then
   begin
@@ -65,14 +67,14 @@ begin
     CONN.ResourceOptions.SilentMode := False;
     CONN.ResourceOptions.DirectExecute := True;
     CONN.ResourceOptions.CmdExecTimeout := 10000;
-    //MC.logger('', 'MYSQL Connection established');
+    Log('MYSQL Connection established', LSQLCOMMON);
     CloseFile(f);
     try
      CONN.Connected := True;
     Except
      on E:Exception do
       begin
-       // MC.logger('EX', 'DB Error' + E.Message);
+       Log('DB Error' + E.Message, LEXCEPT);
       end;
     end;
   end;
@@ -85,7 +87,7 @@ begin
  inherited;
 end;
 
-function convert_result(Q:TFDquery):Tresultset;
+function Tdatabase.convert_result(Q:TFDquery):Tresultset;
 var
  i,y : integer;
  a   :Tresultset;
@@ -111,23 +113,21 @@ if Q.RecordCount <> 0 then
   except
   on E:Exception do
    begin
-  //  MC.logger('EX',E.ClassName+': '+ E.Message );
+    Log('DB Error' + E.Message, LEXCEPT);
    end;
   end;
  end;
 end;
 
-function trans_run_query(db:Tdatabase;str:string;params:array of string):Tresultset;
+function Tdatabase.trans_run_query(db:Tdatabase;str:string;params:array of string):Tresultset;
 var d : TFDquery;
     res: Tresultset;
     i:integer;
-    CONN : Tdatabase;
 begin
-try
+{try
  if not Assigned(db) then exit;
  d := TFDquery.Create(nil);
- CONN := db;
- d.Connection := CONN.con;
+ d.Connection := CONN;
  d.SQL.Add(str);
  if length(params) > 0 then
   begin
@@ -144,62 +144,59 @@ if d.RecordCount > 0 then
 else result := nil;
 finally
  d.free;
-end;
+end;      }
 end;
 
-function run_query(str:string;params:array of string):Tresultset;
-var d : TFDquery;
+function Tdatabase.run_query(str:string;params:array of string):Tresultset;
+var
     res: Tresultset;
     i:integer;
-    CONN : Tdatabase;
     y : Integer;
 begin
   try
-   CONN := Tdatabase.create();
-   d := TFDquery.Create(nil);
-  // MC.logger('DBQUERY', 'Q: '+str);
-  // MC.logger('DBQUERY', '**** PARAMS: ****');
+   QUERY := TFDquery.Create(nil);
+   LOG('Q: '+str, LSQLDUMP);
+   LOG('**** PARAMS: ****');
    for y := 0 to Length(params) - 1 do
      begin
-  //    MC.logger('DBQUERY', 'P'+IntToStr(y+1) +': '+params[y]) ;
+      LOG('P'+IntToStr(y+1) +': '+params[y] , LSQLDUMP) ;
      end;
-  // MC.logger('DBQUERY', '**** END ****');
+    LOG('**** END ****', LSQLDUMP);
 
-   d.ResourceOptions.CmdExecTimeout := 10000 ;
-   d.Connection := CONN.con;
-   d.SQL.Add(str);
+   QUERY.ResourceOptions.CmdExecTimeout := 10000 ;
+   QUERY.Connection := CONN;
+   QUERY.SQL.Add(str);
    if length(params) > 0 then
     begin
      for i := 0 to length(params) - 1 do
       begin
-       d.Params.Items[i].Value:= params[i];
+       QUERY.Params.Items[i].Value:= params[i];
       end;
     end;
-   d.Active := True;
-  if d.RecordCount > 0 then
+   QUERY.Active := True;
+  if QUERY.RecordCount > 0 then
      begin
-      result := convert_result(d);
+      result := convert_result(QUERY);
      end
   else result := nil;
    CONN.destroy;
   except
   on E:Exception do
    begin
-   // MC.logger('EX',E.ClassName+': '+ E.Message );
+    Log('DB Error' + E.Message, LEXCEPT);
     if Assigned(CONN) then CONN.destroy;
-    showMessage('Sql hiba: ' + E.Message);
    end;
   end;
- d.free;
+ QUERY.free;
 end;
 
-function run_query_not_conv(str:string;params:array of string; out con:Tdatabase):TFDquery;
+function Tdatabase.run_query_not_conv(str:string;params:array of string; out con:Tdatabase):TFDquery;
 var d : TFDquery;
     res: Tresultset;
     i,y:integer;
     CONN : Tdatabase;
 begin
-  try
+{  try
    CONN := Tdatabase.create();
    d := TFDquery.Create(nil);
    d.Connection := CONN.con;
@@ -231,17 +228,17 @@ begin
  //   MC.logger('EX',E.ClassName+': '+ E.Message );
     if Assigned(CONN) then CONN.destroy;
    end;
-  end;
+  end;  }
 end;
 
-function trans_exec_query(db:Tdatabase;str:string;params:array of string):boolean;
+function Tdatabase.trans_exec_query(db:Tdatabase;str:string;params:array of string):boolean;
 var d : TFDquery;
     res: Tresultset;
     i:integer;
     CONN : Tdatabase;
    // r : _Recordset;
 begin
-try
+{try
   if not Assigned(db) then exit;
   CONN := db;
   d := TFDQuery.Create(nil);
@@ -257,16 +254,16 @@ try
   result := True;
 finally
   d.free;
-end;
+end;    }
 end;
 
-function exec_query(str:string;params:array of string):boolean;
+function Tdatabase.exec_query(str:string;params:array of string):boolean;
 var d : TFDQuery;
     res: Tresultset;
     i,y:integer;
     CONN : Tdatabase;
 begin
-  try
+{  try
    CONN := Tdatabase.create();
    d := TFDQuery.Create(nil);
    d.Connection := CONN.con;
@@ -295,16 +292,16 @@ begin
     if Assigned(CONN) then CONN.destroy;
    end;
   end;
- d.free;
+ d.free;    }
 end;
 
-function exec_query_ret_id(str:string;params:array of string):integer;
+function Tdatabase.exec_query_ret_id(str:string;params:array of string):integer;
 var d : TFDQuery;
     res: Tresultset;
     i,y:integer;
     CONN : Tdatabase;
 begin
-  try
+ { try
    CONN := Tdatabase.create();
    d := TFDQuery.Create(nil);
    d.Connection := CONN.con;
@@ -334,38 +331,38 @@ begin
     if Assigned(CONN) then CONN.destroy;
    end;
   end;
- d.free;
+ d.free;   }
 end;
 
-function begin_trans():Tdatabase;
+function Tdatabase.begin_trans():Tdatabase;
 var db:Tdatabase;
 begin
- try
+{ try
   db := Tdatabase.create();
   db.CONN.Transaction.StartTransaction;
   Result := db;
  finally
- end;
+ end;  }
 end;
 
-function commit_trans(db:Tdatabase):Boolean;
+function Tdatabase.commit_trans(db:Tdatabase):Boolean;
 begin
-  try
+{  try
    db.CONN.Transaction.Commit;
    Result := true;
   finally
    db.destroy;
-  end;
+  end;  }
 end;
 
-function rollback_trans(db:Tdatabase):Boolean;
+function Tdatabase.rollback_trans(db:Tdatabase):Boolean;
 begin
-  try
+ { try
    db.CONN.Transaction.Rollback;
    Result := true;
   finally
    db.destroy;
-  end;
+  end;  }
 end;
 
 procedure free_result(res:Tresultset);

@@ -7,7 +7,8 @@ uses
   WSCommon in 'WScommon\WSCommon.pas',
   Vcl.Themes,
   Vcl.Styles,
-  WSDBcommon in 'WSDB\WSDBcommon.pas';
+  WSDBcommon in 'WSDB\WSDBcommon.pas',
+  WSHelpers in 'WScommon\WSHelpers.pas';
 
 {$R *.res}
 
