@@ -1,0 +1,20 @@
+unit WSProductCommon;
+
+interface
+uses Classes, System.SysUtils, System.Generics.Collections;
+
+
+  type
+  TWSProductData = TDictionary<TKey,TValue><string, string>;
+
+  IWSProduct = Interface(IInterface)
+
+    function GetLocalID: Integer;
+    function GetRemoteID: Integer;
+    function GetData: TWSProductData;
+  End;
+
+
+implementation
+
+end.

@@ -5,24 +5,35 @@
     <Transaction>2018/06/30 15:48:23.000.391,C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Programming20180304\GIT\WSmanager\main.pas</Transaction>
     <Transaction>2018/06/30 15:48:23.000.391,C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Programming20180304\GIT\WSmanager\main.dfm</Transaction>
     <Transaction>2018/06/30 15:48:27.000.907,C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Programming20180304\GIT\WSmanager\wsm.dproj</Transaction>
-    <Transaction>2018/06/30 15:59:31.864,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 15:59:57.692,D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 16:01:23.047,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 16:01:43.653,D:\Programming20180304\GIT\WSmanager\WScommon\WSCommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 16:05:27.026,D:\Programming20180304\GIT\WSmanager\HTMLtools\WSHtmlCommon.pas=D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas</Transaction>
-    <Transaction>2018/06/30 16:13:33.021,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 16:13:46.244,D:\Programming20180304\GIT\WSmanager\WSDB\WSDBcommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 16:39:50.205,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-    <Transaction>2018/06/30 16:40:01.124,D:\Programming20180304\GIT\WSmanager\WScommon\WSHelpers.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>2018/06/30 15:59:31.000.864,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 15:59:57.000.692,D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:01:23.000.047,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:01:43.000.653,D:\Programming20180304\GIT\WSmanager\WScommon\WSCommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:05:27.000.026,D:\Programming20180304\GIT\WSmanager\HTMLtools\WSHtmlCommon.pas=D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas</Transaction>
+    <Transaction>2018/06/30 16:13:33.000.021,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:13:46.000.244,D:\Programming20180304\GIT\WSmanager\WSDB\WSDBcommon.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:39:50.000.205,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/06/30 16:40:01.000.124,D:\Programming20180304\GIT\WSmanager\WScommon\WSHelpers.pas=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/08/27 10:59:35.350,=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/08/27 11:00:07.260,C:\Users\Toto\Documents\GitHub\WSmanager\WSDB\WSDBProductQueries.pas=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 07:45:36.526,=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 07:46:09.112,C:\Users\Toto\Documents\GitHub\WSmanager\WSOC\WSOCProduct.pas=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 07:47:42.138,=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2018/08/28 07:47:53.081,C:\Users\Toto\Documents\GitHub\WSmanager\WScommon\WSProductCommon.pas=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="HTMLtools"/>
     <File Path="HTMLtools\WSHtmlCommon.pas"/>
     <File Path="WScommon"/>
     <File Path="WScommon\WSCommon.pas"/>
     <File Path="WScommon\WSHelpers.pas"/>
-    <File Path="main.pas"/>
-    <File Path="main.dfm"/>
+    <File Path="WScommon\WSProductCommon.pas"/>
     <File Path="WSDB"/>
     <File Path="WSDB\WSDBcommon.pas"/>
+    <File Path="WSDB\WSDBProductQueries.pas"/>
+    <File Path="WSOC"/>
+    <File Path="WSOC\WSOCProduct.pas"/>
+    <File Path="main.pas"/>
+    <File Path="main.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>

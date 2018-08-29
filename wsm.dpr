@@ -8,7 +8,10 @@ uses
   Vcl.Themes,
   Vcl.Styles,
   WSDBcommon in 'WSDB\WSDBcommon.pas',
-  WSHelpers in 'WScommon\WSHelpers.pas';
+  WSHelpers in 'WScommon\WSHelpers.pas',
+  WSDBProductQueries in 'WSDB\WSDBProductQueries.pas',
+  WSOCProduct in 'WSOC\WSOCProduct.pas',
+  WSProductCommon in 'WScommon\WSProductCommon.pas';
 
 {$R *.res}
 

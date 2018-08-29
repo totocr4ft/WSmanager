@@ -1,0 +1,3 @@
+2018-08-27 10:40:21 ( SQL Info ) > MYSQL Connection established
+2018-08-27 10:40:27 ( Exception ) > DB Error[FireDAC][Phys][MySQL] Access denied for user 'ROOT'@'localhost' (using password: NO)
+2018-08-27 10:41:26 ( SQL Info ) > MYSQL Connection established
