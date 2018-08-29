@@ -11,9 +11,7 @@ uses
   WSHelpers in 'WScommon\WSHelpers.pas',
   WSDBProductQueries in 'WSDB\WSDBProductQueries.pas',
   WSOCProduct in 'WSOC\WSOCProduct.pas',
-  WSProductCommon in 'WScommon\WSProductCommon.pas',
-  WSPCUnionMain in 'WSPCUnion\WSPCUnionMain.pas',
-  WSShopCommon in 'WScommon\WSShopCommon.pas';
+  WSProductCommon in 'WScommon\WSProductCommon.pas';
 
 {$R *.res}
 

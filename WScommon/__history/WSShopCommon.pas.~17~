@@ -1,0 +1,25 @@
+unit WSShopCommon;
+
+interface
+uses Classes, System.SysUtils, System.Generics.Collections, WSOCPRoduct, WSProductCommon, WSCommon;
+
+  type
+   TWSProducts = TDictionary<integer, IWSProduct>;
+
+   TWSShop = class(TWSCommon)
+   private
+     FShopName: string;
+     FShopMainURL: string;
+     FProducts: TWSProducts;
+     function GetProducts: TWSProducts;
+   public
+
+
+
+   end;
+
+
+
+implementation
+
+end.

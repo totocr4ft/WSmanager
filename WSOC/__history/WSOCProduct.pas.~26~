@@ -10,12 +10,10 @@ uses System.SysUtils ,Classes, WSProductCommon;
     FProdData: TWSProductData;
     FLanguageID: integer;
     FID: integer;
-    function GetLocalID: Integer;
+    function GetID: Integer;
     function GetData: TWSProductData;
   public
-    constructor create();
-
-
+    constructor create(AID: integer = 0; ALangID: integer = 0; AData: TWSProductData = nil);
   end;
 
 
@@ -24,19 +22,24 @@ implementation
 
 { TWSOCProduct }
 
+constructor TWSOCProduct.create(AID, ALangID: integer; AData: TWSProductData);
+begin
+  FID := AID;
+  FLanguageID := ALangID;
+  FProdData := AData;
+
+
+end;
+
 function TWSOCProduct.GetData: TWSProductData;
 begin
 
 end;
 
-function TWSOCProduct.GetLocalID: Integer;
+function TWSOCProduct.GetID: Integer;
 begin
 
 end;
 
-function TWSOCProduct.GetRemoteID: Integer;
-begin
-
-end;
 
 end.

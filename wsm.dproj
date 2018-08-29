@@ -97,6 +97,8 @@
         <DCCReference Include="WSDB\WSDBProductQueries.pas"/>
         <DCCReference Include="WSOC\WSOCProduct.pas"/>
         <DCCReference Include="WScommon\WSProductCommon.pas"/>
+        <DCCReference Include="WSPCUnion\WSPCUnionMain.pas"/>
+        <DCCReference Include="WScommon\WSShopCommon.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

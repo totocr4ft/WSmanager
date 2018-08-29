@@ -19,6 +19,7 @@ uses System.SysUtils ,Classes, WSProductCommon;
     property ID: integer read GetID;
     property LanguageID: integer read GetLangID;
     property ProductData: TWSProductData read FProdData;
+
   end;
 
 
@@ -29,6 +30,8 @@ implementation
 
 constructor TWSOCProduct.create(AID, ALangID: integer; AData: TWSProductData);
 begin
+  inherited;
+
   FID := AID;
   FLanguageID := ALangID;
   FProdData := AData;
@@ -44,10 +47,5 @@ begin
   Result := FID;
 end;
 
-
-function TWSOCProduct.GetLangID: integer;
-begin
-  Result := FLanguageID;
-end;
 
 end.
