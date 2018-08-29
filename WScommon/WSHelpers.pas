@@ -43,9 +43,11 @@ function getobj(list:TObject):string;
  procedure resultset_to_csv(res : Tresultset; filename:string);
  procedure excel_from_resultset(Res : Tresultset;filename:string;Open_after:Boolean);
  procedure order_result_by(var res : Tresultset;col:string);
- function implode(separator:string; intarr:Tintarray):string;
+ function implode(separator:string; intarr:Tintarray):string; overload;
+ function implode(separator:string; intarr:T1Darray):string; overload;
  function ConfirmDialog(title,value,yes_caption,no_caption:string):integer;
  function json_to_resultset(json:string):Tresultset;
+ procedure ResultsetToStringgrid(Grid: TObject; Data: Tresultset; FreeResult: Boolean = False);
 
 implementation
 
@@ -208,6 +210,46 @@ else
   end;
  end;
 end;
+//----------------------------------------------------------------------------//
+//                         ADD RESULTSET TO STRINGGRID                        //
+//----------------------------------------------------------------------------//
+procedure ResultsetToStringgrid(Grid: TObject; Data: Tresultset; FreeResult: Boolean);
+var
+  I, Y: integer;
+  LTemp: string;
+begin
+
+    if not (Grid is TStringGrid) then
+      exit;
+
+    if length(Data) = 0 then
+      exit;
+
+   clear_grid(Grid as TStringGrid);
+   TStringGrid(Grid).ColCount := Data[0].Count;
+   for I := 0 to Data[0].Count - 1 do
+   begin
+     TStringGrid(Grid).Cells[I, 0] := Data[0].Names[I];
+   end;
+
+   for I := 0 to Length(Data) - 1 do
+   begin
+     LTemp := '';
+
+     for Y := 0 to Data[I].Count - 1 do
+     begin
+       LTemp := LTemp + Data[I].ValueFromIndex[Y];
+
+       if Y <> Data[I].Count - 1 then
+         LTemp := LTemp + '|';
+
+     end;
+
+     addline(Grid, LTemp);
+   end;
+end;
+
+
 
 //----------------------------------------------------------------------------//
 //                          GET LINE OBJECT DATA                              //
@@ -442,7 +484,7 @@ end;
 //                   CREATE STRING FROM ARRAY (CUSTOM SEPARATOR)              //
 //----------------------------------------------------------------------------//
 
-function implode(separator:string; intarr:Tintarray):string; overload;
+function implode(separator:string; intarr:Tintarray):string;
 var i : integer;
 begin
  Result := '';
@@ -454,15 +496,15 @@ begin
   end;
 end;
 
-function implode(separator:string; arr:T1darray):string; overload;
+function implode(separator:string; intarr:T1darray):string;
 var i : integer;
 begin
  Result := '';
- if Length(arr) = 0 then exit;
- for i := 0 to Length(arr) - 1 do
+ if Length(intarr) = 0 then exit;
+ for i := 0 to Length(intarr) - 1 do
   begin
-   Result := Result + arr[i];
-   if i < Length(arr) - 1 then Result := Result + separator;
+   Result := Result + intarr[i];
+   if i < Length(intarr) - 1 then Result := Result + separator;
   end;
 end;
 

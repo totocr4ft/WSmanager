@@ -1,0 +1,60 @@
+2018-08-29 14:4:39 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:4:40 ( Information ) > Success!
+2018-08-29 14:5:8 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:5:9 ( Information ) > Success!
+2018-08-29 14:20:54 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:20:54 ( Information ) > Success!
+2018-08-29 14:21:16 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:21:19 ( Information ) > Success!
+2018-08-29 14:21:25 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:21:25 ( Information ) > Success!
+2018-08-29 14:43:22 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:43:31 ( Information ) > Success!
+2018-08-29 14:43:43 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:47:39 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:47:40 ( Information ) > Success!
+2018-08-29 14:48:29 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:48:30 ( Information ) > Success!
+2018-08-29 14:50:53 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 14:50:54 ( Information ) > Success!
+2018-08-29 15:0:51 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:2:32 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:3:32 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:6:15 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:6:38 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:6:47 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:26:39 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:26:39 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:26:41 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:26:41 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:26:50 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:26:50 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:27:18 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:27:19 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:27:59 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:28:0 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:28:23 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:28:25 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:29:33 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:29:40 ( Exception ) > HTTP : Integer overflow
+2018-08-29 15:30:5 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:30:8 ( Exception ) > HTTP : Access violation at address 0040C480 in module 'wsm.exe'. Read of address FFFFFFFD
+2018-08-29 15:30:27 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:30:54 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:32:45 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:33:47 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:34:13 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:35:8 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:35:41 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:35:57 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:37:26 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:37:50 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:38:55 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:39:15 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:40:56 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:43:22 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:44:2 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:45:12 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:46:0 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:47:47 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:48:13 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1

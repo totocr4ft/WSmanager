@@ -20,7 +20,6 @@ uses
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  TStyleManager.TrySetStyle('Auric');
   Application.CreateForm(TForm2, Form2);
   Application.Run;
 end.

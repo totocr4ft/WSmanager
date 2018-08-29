@@ -2,7 +2,8 @@ unit WSHtmlCommon;
 
 interface
 uses IdBaseComponent,IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, IdIOHandler,
-     IdIOHandlerSocket, IdIOHandlerStack, IdSSL, IdSSLOpenSSL, System.Classes,WSCommon, Sysutils, Generics.Collections, Strutils;
+     IdIOHandlerSocket, IdIOHandlerStack, IdSSL, IdSSLOpenSSL, System.Classes,
+     WSCommon, Sysutils, Generics.Collections, Strutils, WSDBCommon, WSHelpers ;
 
     type
 
@@ -48,6 +49,7 @@ uses IdBaseComponent,IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, IdIOHand
        public
         constructor create;
         function get(AUrl:string):string;
+        function GetCSV(AURL: string): Tresultset;
 
         property Tables : TWShtmlTables read _tables;
         property Links  : TWShtmlLinks read _links;
@@ -126,6 +128,50 @@ begin
  end;
 end;
 
+
+function TWSHtml.GetCSV(AURL: string): Tresultset;
+var
+  LRes: string;
+  LHeader: T1darray;
+  LArr: T1darray;
+  LTemp: T1darray;
+  I, Y, Ind: Integer;
+  LResult: Tresultset;
+begin
+  Log('Getting URL: ' + AUrl);
+  try
+    LRes := _ID_client.Get(AUrl);
+    LArr := explode(#10, Lres);
+    LRes := '';
+
+    if length(LArr) = 0 then
+      exit;
+
+    LHeader := explode(';', LArr[0]);
+
+    // RESULTSET ÖSSZEFÛZÉS CSV HEADER ALAPJÁN
+    for I := 1 to length(LArr) - 1 do
+    begin
+      if LArr[I] = '' then
+        Break;
+
+      LTemp := explode(';', LArr[I]);
+      SetLength(Result, Length(Result) + 1);
+      ind := high(Result);
+      Result[ind] := TStringList.Create;
+      for y := 0 to length(LHeader) - 1 do
+      begin
+        with Result[ind] do
+        begin
+          Values[LHeader[y]] := LTemp[Y];
+        end;
+      end;
+    end;
+  except
+    on E : Exception  do
+      Log('HTTP : ' + E.Message,LEXCEPT);
+  end;
+end;
 
 function TWSHtml.GetNextLink(var Link: TWShtmlLink):Boolean;
 
