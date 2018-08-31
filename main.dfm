@@ -2,8 +2,8 @@ object Form2: TForm2
   Left = 0
   Top = 0
   Caption = 'Webshop Manager | V 1.0'
-  ClientHeight = 465
-  ClientWidth = 797
+  ClientHeight = 738
+  ClientWidth = 1031
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,11 +12,19 @@ object Form2: TForm2
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
+  OnCreate = FormCreate
   DesignSize = (
-    797
-    465)
+    1031
+    738)
   PixelsPerInch = 96
   TextHeight = 12
+  object Image1: TImage
+    Left = 8
+    Top = 118
+    Width = 217
+    Height = 210
+    Stretch = True
+  end
   object Button1: TButton
     Left = 8
     Top = 8
@@ -27,22 +35,58 @@ object Form2: TForm2
     OnClick = Button1Click
   end
   object Memo1: TMemo
-    Left = 89
+    Left = 231
     Top = 8
-    Width = 700
-    Height = 71
+    Width = 792
+    Height = 722
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    ScrollBars = ssBoth
     TabOrder = 1
   end
   object StringGrid1: TStringGrid
     Left = 8
-    Top = 85
-    Width = 781
-    Height = 372
+    Top = 334
+    Width = 217
+    Height = 353
     Anchors = [akLeft, akTop, akRight, akBottom]
     ColCount = 1
     FixedCols = 0
     TabOrder = 2
     ColWidths = (
       98)
+  end
+  object Button2: TButton
+    Left = 89
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Test Spec'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 92
+    Width = 217
+    Height = 20
+    TabOrder = 4
+  end
+  object Button3: TButton
+    Left = 8
+    Top = 61
+    Width = 89
+    Height = 25
+    Caption = 'Download Image'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 8
+    Top = 33
+    Width = 75
+    Height = 25
+    Caption = 'Posttest'
+    TabOrder = 6
+    OnClick = Button4Click
   end
 end

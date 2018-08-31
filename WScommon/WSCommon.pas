@@ -9,7 +9,7 @@ uses System.classes, System.Sysutils, VCL.Forms;
       TWSonLog = procedure(Amsg:string; Atype: TWSmsgtype) of object;
 
       TWSCommon = class(TObject)
-       private
+       protected
          _logOpt: TWSmsgOptions;
          _onlog : TWSonLog;
          function LogtypeToString(t:TWSmsgtype):string;

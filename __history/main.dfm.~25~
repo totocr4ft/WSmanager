@@ -1,0 +1,67 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Webshop Manager | V 1.0'
+  ClientHeight = 465
+  ClientWidth = 797
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  DesignSize = (
+    797
+    465)
+  PixelsPerInch = 96
+  TextHeight = 12
+  object Image1: TImage
+    Left = 8
+    Top = 368
+    Width = 75
+    Height = 80
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Test'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 89
+    Top = 8
+    Width = 700
+    Height = 449
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    ScrollBars = ssBoth
+    TabOrder = 1
+  end
+  object StringGrid1: TStringGrid
+    Left = -22
+    Top = 96
+    Width = 105
+    Height = 241
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    ColCount = 1
+    FixedCols = 0
+    TabOrder = 2
+    Visible = False
+    ColWidths = (
+      98)
+  end
+  object Button2: TButton
+    Left = 8
+    Top = 39
+    Width = 75
+    Height = 25
+    Caption = 'Test Spec'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+end

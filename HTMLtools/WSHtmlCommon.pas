@@ -3,7 +3,8 @@ unit WSHtmlCommon;
 interface
 uses IdBaseComponent,IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, IdIOHandler,
      IdIOHandlerSocket, IdIOHandlerStack, IdSSL, IdSSLOpenSSL, System.Classes,
-     WSCommon, Sysutils, Generics.Collections, Strutils, WSDBCommon, WSHelpers ;
+     WSCommon, Sysutils, Generics.Collections, Strutils, WSDBCommon, WSHelpers, JPEG,
+     IdMultipartFormData ;
 
     type
 
@@ -45,17 +46,21 @@ uses IdBaseComponent,IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, IdIOHand
         function GetTagPairContent(Tag, TagEnd, Html:string; var LastEnderPos:integer; var TagProperties: string):string;
         procedure GetAllLinks;
         function getAttrib(Atag, Attrib : string):string;
+        //https://stackoverflow.com/questions/301991/what-s-the-simplest-way-to-call-http-post-url-using-delphi/967018
         function GetTables(var Tables: TWShtmlTables):Boolean;
        public
         constructor create;
         function get(AUrl:string):string;
         function GetCSV(AURL: string): Tresultset;
+        function GetJPG(AURL: string): TJPEGImage;
+        procedure PostTest;
 
         property Tables : TWShtmlTables read _tables;
         property Links  : TWShtmlLinks read _links;
 
       end;
 
+      function CleanHTMLTags(AText: string):string;
 
 implementation
 
@@ -138,7 +143,7 @@ var
   I, Y, Ind: Integer;
   LResult: Tresultset;
 begin
-  Log('Getting URL: ' + AUrl);
+  Log('Getting CSV from URL: ' + AUrl);
   try
     LRes := _ID_client.Get(AUrl);
     LArr := explode(#10, Lres);
@@ -163,13 +168,37 @@ begin
       begin
         with Result[ind] do
         begin
-          Values[LHeader[y]] := LTemp[Y];
+          Values[CleanHTMLTags(StringReplace(LHeader[y], #$FEFF, '', [rfReplaceAll, rfIgnoreCase]))] := CleanHTMLTags( StringReplace(LTemp[y], #$FEFF, '', [rfReplaceAll, rfIgnoreCase]));
         end;
       end;
     end;
   except
     on E : Exception  do
-      Log('HTTP : ' + E.Message,LEXCEPT);
+      Log('HTTP : ' + E.Message, LEXCEPT);
+  end;
+end;
+
+function TWSHtml.GetJPG(AURL: string): TJPEGImage;
+var
+  LMemory: TMemoryStream;
+begin
+  Log('Getting JPG image from URL: ' + AUrl);
+  try
+    try
+      Result := TJPEGImage.Create;
+      LMemory := TMemoryStream.Create;
+      _ID_client.Get(AURL, LMemory);
+      LMemory.Position := 0;
+      Result.LoadFromStream(LMemory);
+    except
+      on E : Exception  do
+      begin
+        Log('HTTP JPG Download : ' + E.Message, LEXCEPT);
+        Result.Free;
+      end;
+    end;
+  finally
+    LMemory.Free;
   end;
 end;
 
@@ -259,8 +288,8 @@ begin
             Cell := getTagPairContent('td','/td', Row, LastCell, Properties);
               if Cell <> '' then
               begin
-                Trows.Last.Add(Cell);
-                Log('ROW #'+ IntToStr(Trows.Count) + ' DATA ADDED: ' + Cell,LDUMPINFO  );
+                Trows.Last.Add( CleanHtmlTags( Cell ) );
+                Log('ROW #'+ IntToStr(Lastrow) + 'CELL #'+ IntToStr(Trows.Count) + ' DATA ADDED: ' + Cell,LDUMPINFO  );
               end;
            until (Cell = '');
           end;
@@ -294,6 +323,46 @@ begin
   Ender := Posex(TagEnd, Html, PropEnder) + Length(Tagend);
   LastEnderPos := Ender;
   Result := StringReplace(Copy(Html, PropEnder + 1, (Ender - (PropEnder + 1) ) - (Length(TagEnd) + 1)), #13#10, '', [rfReplaceAll]) ;
+end;
+
+procedure TWSHtml.PostTest;
+var
+  LData: TIdMultiPartFormDataStream;
+begin
+  try
+    LData := TIdMultiPartFormDataStream.Create;
+    try
+      LData.AddFile('Files[]', 'a.jpg', 'image/jpg');
+      LData.AddFile('Files[]', 'b.jpg', 'image/jpg' );
+      LOG(_ID_client.Post('http://localhost/app/index.php', LData), LDUMPINFO);
+    except
+      on E : Exception  do
+        Log('HTTP : ' + E.Message, LEXCEPT);
+    end;
+  finally
+    Ldata.Free;
+  end;
+end;
+
+{ COMMON }
+
+function CleanHTMLTags(AText: string):string;
+var
+  LOptions: TReplaceFlags;
+  LTags: array of string;
+  LTag: string;
+begin
+  LOptions := [rfReplaceall, rfIgnoreCase];
+  LTags :=['strong', 'h1', 'h2', 'h3', 'p', 'a', 'div'];
+  Result := AText;
+  try
+    for LTag in Ltags do
+    begin
+      Result := StringReplace(Result, '<' + LTag + '>', '', LOptions);
+      Result := StringReplace(Result, '</' + LTag + '>', '', LOptions);
+    end;
+  except
+  end;
 end;
 
 end.

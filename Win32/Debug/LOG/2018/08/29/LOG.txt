@@ -58,3 +58,4 @@
 2018-08-29 15:46:0 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
 2018-08-29 15:47:47 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
 2018-08-29 15:48:13 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-08-29 15:50:32 ( Information ) > Getting URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1

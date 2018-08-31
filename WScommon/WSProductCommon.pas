@@ -5,7 +5,7 @@ uses Classes, System.SysUtils, System.Generics.Collections;
 
 
   type
-  TWSProductData = TDictionary<string, string>;
+  TWSProductData = TStringList;
 
   IWSProduct = Interface(IInterface)
     ['{4C645696-D895-42C2-B6E0-9E6045E9CD7D}']

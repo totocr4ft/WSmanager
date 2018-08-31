@@ -1,8 +1,0 @@
-unit WSPCUnionMain;
-
-interface
-uses WSOCPRoduct;
-
-implementation
-
-end.

@@ -1,15 +1,17 @@
 unit WSOCProduct;
 
 interface
-uses System.SysUtils ,Classes, WSProductCommon;
+uses System.SysUtils ,Classes, WSProductCommon, System.Generics.Collections, JPEG;
 
   type
 
   TWSOCProduct = class(TInterfacedObject, IWSProduct)
   private
     FProdData: TWSProductData;
+    FProdspec: TStringList;
     FLanguageID: integer;
     FID: integer;
+    FImage: TJPEGImage;
     function GetID: Integer;
     function GetData: TWSProductData;
     function GetLangID: integer;
@@ -18,9 +20,12 @@ uses System.SysUtils ,Classes, WSProductCommon;
 
     property ID: integer read GetID;
     property LanguageID: integer read GetLangID;
-    property ProductData: TWSProductData read FProdData;
+    property ProductData: TWSProductData read FProdData Write FProdData;
+    property ProductSpec: TStringlist read FProdspec write FProdspec;
+    property ProductImage: TJPEGImage read FImage write Fimage;
   end;
 
+  TWSOCPRoducts = TDictionary<integer ,TWSOCProduct>;
 
 
 implementation
