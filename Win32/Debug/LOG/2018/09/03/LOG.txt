@@ -1,0 +1,1521 @@
+2018-09-03 12:53:47 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:2:11 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:10:59 ( Exception ) > HTTP : HTTP/1.1 404 Not Found
+2018-09-03 13:26:12 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:29:3 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:29:3 ( Exception ) > HTTP : Could not load SSL library.
+2018-09-03 13:29:3 ( Error ) > CSV Error
+2018-09-03 13:29:45 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:29:45 ( Exception ) > HTTP : Could not load SSL library.
+2018-09-03 13:29:45 ( Error ) > CSV Error
+2018-09-03 13:29:52 ( Error ) > No product!
+2018-09-03 13:29:52 ( Error ) > No product!
+2018-09-03 13:29:54 ( Exception ) > HTTP : HTTP/1.1 404 Not Found
+2018-09-03 13:31:4 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 56
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 65
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 75
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 77
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 78
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 79
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 80
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 81
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 83
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 85
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 86
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 88
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 89
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 90
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 91
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 92
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 93
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 149
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 159
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 161
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 162
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 197
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 230
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 234
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 248
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 264
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 278
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 280
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 307
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 316
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 330
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 339
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 364
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 370
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 371
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 372
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 375
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 381
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 384
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 389
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 393
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 401
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 404
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 408
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 411
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 420
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 423
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 424
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 428
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 430
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 438
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 440
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 441
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 446
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 457
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 460
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 468
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 476
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 488
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 490
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 491
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 494
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 497
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 502
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 503
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 506
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 507
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 508
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 509
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 511
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 512
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 519
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 524
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 525
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 528
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 531
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 535
+2018-09-03 13:31:5 ( Data Dump ) > Product Registered: 545
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 550
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 552
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 553
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 558
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 559
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 565
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 566
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 568
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 572
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 576
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 589
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 590
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 592
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 611
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 614
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 615
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 616
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 617
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 622
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 630
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 633
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 635
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 654
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 655
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 658
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 659
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 662
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 684
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 692
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 696
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 697
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 699
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 712
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 720
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 721
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 725
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 726
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 727
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 739
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 741
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 744
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 749
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 750
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 751
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 752
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 753
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 754
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 755
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 756
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 757
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 758
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 760
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 769
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 770
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 773
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 776
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 845
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 849
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 853
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 854
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 874
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 875
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 886
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 887
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 889
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 890
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 891
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 892
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 893
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 894
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 895
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 896
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 897
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 898
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 899
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 900
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 901
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 902
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 903
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 904
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 905
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 906
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 907
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 908
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 909
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 910
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 911
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 912
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 913
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 914
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 915
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 916
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 917
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 918
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 919
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 920
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 921
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 922
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 923
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 924
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 925
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 926
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 927
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 928
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 929
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 930
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 931
+2018-09-03 13:31:6 ( Data Dump ) > Product Registered: 932
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 933
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 934
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 935
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 936
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 937
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 938
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 939
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 940
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 941
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 942
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 943
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 944
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 945
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 946
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 947
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 948
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 949
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 950
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 951
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 952
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 953
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 954
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 955
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 956
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 957
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 958
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 959
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 960
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 961
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 962
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 963
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 964
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 965
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 966
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 967
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 968
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 969
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 970
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 971
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 972
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 973
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 974
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 975
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 976
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 977
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 978
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 987
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 988
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 989
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 990
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 991
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 992
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 993
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 994
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 995
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 996
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 997
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 998
+2018-09-03 13:31:7 ( Data Dump ) > Product Registered: 999
+2018-09-03 13:31:7 ( Information ) > CSV received Count: 245
+2018-09-03 13:31:9 ( Information ) > Getting URL: https://shop.pcunion.hu/index.php?route=product/product&product_id=928
+2018-09-03 13:31:9 ( Data Dump ) > Link found: <i class="fa fa-phone"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 13:31:9 ( Data Dump ) > Link found: <i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Kosár tartalma</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/cart
+2018-09-03 13:31:9 ( Data Dump ) > Link found: <i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Fizetés</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/checkout
+2018-09-03 13:31:9 ( Data Dump ) > Link found: <i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Belépés" -> HREF =  https://shop.pcunion.hu/index.php?route=account/login
+2018-09-03 13:31:9 ( Data Dump ) > Link found: <i class="fa fa-sign-in"></i> <span class="hidden-xs hidden-sm hidden-md">Regisztráció" -> HREF =  https://shop.pcunion.hu/index.php?route=account/register
+2018-09-03 13:31:9 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/catalog/logo.jpg" title="PC Union Webáruház" alt="PC Union Webáruház" class="img-responsive" />" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Laptop" -> HREF =  https://shop.pcunion.hu/laptop-hasznalt
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Asztali PC" -> HREF =  https://shop.pcunion.hu/asztali-szamitogep-hasznalt
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Monitor" -> HREF =  https://shop.pcunion.hu/monitor-hasznalt
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Szerver" -> HREF =  https://shop.pcunion.hu/szerver-hasznalt
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Nyomtató" -> HREF =  https://shop.pcunion.hu/nyomtato-hasznalt
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Laptop akkumulátor" -> HREF =  https://shop.pcunion.hu/laptop-akkumulator
+2018-09-03 13:31:9 ( Data Dump ) > Link found: Alkatrész" -> HREF =  https://shop.pcunion.hu/hasznalt-pc-laptop-alkatreszek 
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Szoftver" -> HREF =  https://shop.pcunion.hu/szoftver-hasznalt
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Szolgáltatás" -> HREF =  https://shop.pcunion.hu/szolgaltatas
+2018-09-03 13:31:10 ( Data Dump ) > Link found: <i class="fa fa-home"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 13:31:10 ( Data Dump ) > Link found: DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" -> HREF =  https://shop.pcunion.hu/dell-e7450-core-i5-5300u-4gb-128gb-ssd-nodvd
+2018-09-03 13:31:10 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-450x450.jpg" title="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" alt="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" itemprop="image" />" -> HREF =  https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-800x800.jpg
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Leírás" -> HREF =  #tab-description
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Specifikáció" -> HREF =  #tab-specification
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Gyártói link" -> HREF =  http://www.dell.com/hu/kis-es-kozepvallalat/p/latitude-e7450-ultrabook/pd
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Review" -> HREF =  https://www.notebookcheck.net/Dell-Latitude-14-E7450-Ultrabook-Review.135484.0.html
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Besorolás:" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 13:31:10 ( Data Dump ) > Link found: <span itemprop="brand">Dell</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=product/manufacturer/info&manufacturer_id=16
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Bemutatkozás" -> HREF =  https://shop.pcunion.hu/bemutatkozas
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Vásárlási tudnivalók" -> HREF =  https://shop.pcunion.hu/delivery
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Garancia" -> HREF =  https://shop.pcunion.hu/privacy
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Általános szerzõdési feltételek" -> HREF =  https://shop.pcunion.hu/terms
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Vásárlói információ" -> HREF =  https://shop.pcunion.hu/vasarloi-informacio
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Besorolás kategóriák" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Kapcsolat" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Visszáru" -> HREF =  https://shop.pcunion.hu/index.php?route=account/return/add
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Honlaptérkép" -> HREF =  https://shop.pcunion.hu/index.php?route=information/sitemap
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Fiókom" -> HREF =  https://shop.pcunion.hu/index.php?route=account/account
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Eddigi megrendeléseim" -> HREF =  https://shop.pcunion.hu/index.php?route=account/order
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Kívánságlista" -> HREF =  https://shop.pcunion.hu/index.php?route=account/wishlist
+2018-09-03 13:31:10 ( Data Dump ) > Link found: Hírlevél" -> HREF =  https://shop.pcunion.hu/index.php?route=account/newsletter
+2018-09-03 13:31:10 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 13:31:10 ( Data Dump ) > ROW #66CELL #1 DATA ADDED: <strong>Rövid leírás</strong>
+2018-09-03 13:31:10 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Processzor:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 13:31:10 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: Memória:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: 4GB
+2018-09-03 13:31:10 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: Háttértár mérete:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: 128GB SSD
+2018-09-03 13:31:10 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Optikai meghajtó: 
+2018-09-03 13:31:10 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Nincs
+2018-09-03 13:31:10 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: Kijelzõ: 
+2018-09-03 13:31:10 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: 14" 1366x768
+2018-09-03 13:31:10 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: Garancia:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: <font color="red">6 hónap garancia</font>
+2018-09-03 13:31:10 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 13:31:10 ( Data Dump ) > ROW #158CELL #1 DATA ADDED: <strong>Specifikáció</strong>
+2018-09-03 13:31:10 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Gyártó:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Dell
+2018-09-03 13:31:10 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Processzor:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 13:31:10 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: Memória:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: 4GB
+2018-09-03 13:31:10 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: Háttértár típus:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: SSD
+2018-09-03 13:31:10 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: Háttértár mérete:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: 128GB
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Optikai meghajtó: 
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Nincs
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: Kijelzõ mérete:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: 14&quot;
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: Kijelzõ felbontása:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: 1366x768
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Videókártya:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Intel HD 5500
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Wifi:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Van
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: LAN:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: 1db
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: HDMI kimenet:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: 1db
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: D-Sub(VGA) kimenet:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: Nincs
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: DisplayPort kimenet:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: 1db mini
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Firewire (IEEE 1394) csatlakozó:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Nincs
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: USB 2.0 port:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: Nincs
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: USB 3.0 port:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: 3db
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: eSATA:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: 1db
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Kártyaolvasó:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Van
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Webkamera:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Érdeklõdj
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Billentyûzet:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Érdeklõdj
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: Akkumulátor:
+2018-09-03 13:31:10 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: 1-3 óra
+2018-09-03 13:31:10 ( Information ) > Success!
+2018-09-03 13:31:10 ( Data Dump ) > Maybe header: Rövid leírás
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB SSD
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Kijelzõ  > 14" 1366x768
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Garancia > <font color="red">6 hónap garancia</font>
+2018-09-03 13:31:10 ( Data Dump ) > Maybe header: Specifikáció
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Gyártó > Dell
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 13:31:10 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Háttértár típus > SSD
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Kijelzõ mérete > 14&quot;
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Kijelzõ felbontása > 1366x768
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Videókártya > Intel HD 5500
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Wifi > Van
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: LAN > 1db
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: HDMI kimenet > 1db
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: D-Sub(VGA) kimenet > Nincs
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: DisplayPort kimenet > 1db mini
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Firewire (IEEE 1394) csatlakozó > Nincs
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: USB 2.0 port > Nincs
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: USB 3.0 port > 3db
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: eSATA > 1db
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Kártyaolvasó > Van
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Webkamera > Érdeklõdj
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Billentyûzet > Érdeklõdj
+2018-09-03 13:31:11 ( Data Dump ) > Maybe a key-value pair: Akkumulátor > 1-3 óra
+2018-09-03 13:31:11 ( Information ) > Getting JPG image from URL: https://shop.pcunion.hu/image/catalog/laptopok/20170406-DellE7450.jpg
+2018-09-03 13:31:38 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 56
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 65
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 75
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 77
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 78
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 79
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 80
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 81
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 83
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 85
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 86
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 88
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 89
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 90
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 91
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 92
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 93
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 149
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 159
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 161
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 162
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 197
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 230
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 234
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 248
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 264
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 278
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 280
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 307
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 316
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 330
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 339
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 364
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 370
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 371
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 372
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 375
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 381
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 384
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 389
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 393
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 401
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 404
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 408
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 411
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 420
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 423
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 424
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 428
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 430
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 438
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 440
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 441
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 446
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 457
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 460
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 468
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 476
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 488
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 490
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 491
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 494
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 497
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 502
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 503
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 506
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 507
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 508
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 509
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 511
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 512
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 519
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 524
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 525
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 528
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 531
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 535
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 545
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 550
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 552
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 553
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 558
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 559
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 565
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 566
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 568
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 572
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 576
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 589
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 590
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 592
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 611
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 614
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 615
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 616
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 617
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 622
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 630
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 633
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 635
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 654
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 655
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 658
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 659
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 662
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 684
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 692
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 696
+2018-09-03 13:31:40 ( Data Dump ) > Product Registered: 697
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 699
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 712
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 720
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 721
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 725
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 726
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 727
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 739
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 741
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 744
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 749
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 750
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 751
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 752
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 753
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 754
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 755
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 756
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 757
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 758
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 760
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 769
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 770
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 773
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 776
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 845
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 849
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 853
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 854
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 874
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 875
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 886
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 887
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 889
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 890
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 891
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 892
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 893
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 894
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 895
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 896
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 897
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 898
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 899
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 900
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 901
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 902
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 903
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 904
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 905
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 906
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 907
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 908
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 909
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 910
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 911
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 912
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 913
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 914
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 915
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 916
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 917
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 918
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 919
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 920
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 921
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 922
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 923
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 924
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 925
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 926
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 927
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 928
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 929
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 930
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 931
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 932
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 933
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 934
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 935
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 936
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 937
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 938
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 939
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 940
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 941
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 942
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 943
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 944
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 945
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 946
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 947
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 948
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 949
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 950
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 951
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 952
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 953
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 954
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 955
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 956
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 957
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 958
+2018-09-03 13:31:41 ( Data Dump ) > Product Registered: 959
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 960
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 961
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 962
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 963
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 964
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 965
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 966
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 967
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 968
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 969
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 970
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 971
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 972
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 973
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 974
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 975
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 976
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 977
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 978
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 987
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 988
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 989
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 990
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 991
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 992
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 993
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 994
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 995
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 996
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 997
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 998
+2018-09-03 13:31:42 ( Data Dump ) > Product Registered: 999
+2018-09-03 13:31:42 ( Information ) > CSV received Count: 245
+2018-09-03 13:31:47 ( Information ) > Getting URL: https://shop.pcunion.hu/index.php?route=product/product&product_id=928
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <i class="fa fa-phone"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Kosár tartalma</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/cart
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Fizetés</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/checkout
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Belépés" -> HREF =  https://shop.pcunion.hu/index.php?route=account/login
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <i class="fa fa-sign-in"></i> <span class="hidden-xs hidden-sm hidden-md">Regisztráció" -> HREF =  https://shop.pcunion.hu/index.php?route=account/register
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/catalog/logo.jpg" title="PC Union Webáruház" alt="PC Union Webáruház" class="img-responsive" />" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Laptop" -> HREF =  https://shop.pcunion.hu/laptop-hasznalt
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Asztali PC" -> HREF =  https://shop.pcunion.hu/asztali-szamitogep-hasznalt
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Monitor" -> HREF =  https://shop.pcunion.hu/monitor-hasznalt
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Szerver" -> HREF =  https://shop.pcunion.hu/szerver-hasznalt
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Nyomtató" -> HREF =  https://shop.pcunion.hu/nyomtato-hasznalt
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Laptop akkumulátor" -> HREF =  https://shop.pcunion.hu/laptop-akkumulator
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Alkatrész" -> HREF =  https://shop.pcunion.hu/hasznalt-pc-laptop-alkatreszek 
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Szoftver" -> HREF =  https://shop.pcunion.hu/szoftver-hasznalt
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Szolgáltatás" -> HREF =  https://shop.pcunion.hu/szolgaltatas
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <i class="fa fa-home"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 13:31:48 ( Data Dump ) > Link found: DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" -> HREF =  https://shop.pcunion.hu/dell-e7450-core-i5-5300u-4gb-128gb-ssd-nodvd
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-450x450.jpg" title="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" alt="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" itemprop="image" />" -> HREF =  https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-800x800.jpg
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Leírás" -> HREF =  #tab-description
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Specifikáció" -> HREF =  #tab-specification
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Gyártói link" -> HREF =  http://www.dell.com/hu/kis-es-kozepvallalat/p/latitude-e7450-ultrabook/pd
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Review" -> HREF =  https://www.notebookcheck.net/Dell-Latitude-14-E7450-Ultrabook-Review.135484.0.html
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Besorolás:" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 13:31:48 ( Data Dump ) > Link found: <span itemprop="brand">Dell</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=product/manufacturer/info&manufacturer_id=16
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Bemutatkozás" -> HREF =  https://shop.pcunion.hu/bemutatkozas
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Vásárlási tudnivalók" -> HREF =  https://shop.pcunion.hu/delivery
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Garancia" -> HREF =  https://shop.pcunion.hu/privacy
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Általános szerzõdési feltételek" -> HREF =  https://shop.pcunion.hu/terms
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Vásárlói információ" -> HREF =  https://shop.pcunion.hu/vasarloi-informacio
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Besorolás kategóriák" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Kapcsolat" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Visszáru" -> HREF =  https://shop.pcunion.hu/index.php?route=account/return/add
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Honlaptérkép" -> HREF =  https://shop.pcunion.hu/index.php?route=information/sitemap
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Fiókom" -> HREF =  https://shop.pcunion.hu/index.php?route=account/account
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Eddigi megrendeléseim" -> HREF =  https://shop.pcunion.hu/index.php?route=account/order
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Kívánságlista" -> HREF =  https://shop.pcunion.hu/index.php?route=account/wishlist
+2018-09-03 13:31:48 ( Data Dump ) > Link found: Hírlevél" -> HREF =  https://shop.pcunion.hu/index.php?route=account/newsletter
+2018-09-03 13:31:48 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 13:31:48 ( Data Dump ) > ROW #66CELL #1 DATA ADDED: <strong>Rövid leírás</strong>
+2018-09-03 13:31:48 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Processzor:
+2018-09-03 13:31:48 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 13:31:48 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: Memória:
+2018-09-03 13:31:48 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: 4GB
+2018-09-03 13:31:48 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: Háttértár mérete:
+2018-09-03 13:31:48 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: 128GB SSD
+2018-09-03 13:31:48 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Optikai meghajtó: 
+2018-09-03 13:31:48 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Nincs
+2018-09-03 13:31:48 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: Kijelzõ: 
+2018-09-03 13:31:48 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: 14" 1366x768
+2018-09-03 13:31:48 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: Garancia:
+2018-09-03 13:31:48 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: <font color="red">6 hónap garancia</font>
+2018-09-03 13:31:48 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 13:31:48 ( Data Dump ) > ROW #158CELL #1 DATA ADDED: <strong>Specifikáció</strong>
+2018-09-03 13:31:48 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Gyártó:
+2018-09-03 13:31:48 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Dell
+2018-09-03 13:31:48 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Processzor:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 13:31:49 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: Memória:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: 4GB
+2018-09-03 13:31:49 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: Háttértár típus:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: SSD
+2018-09-03 13:31:49 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: Háttértár mérete:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: 128GB
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Optikai meghajtó: 
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Nincs
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: Kijelzõ mérete:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: 14&quot;
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: Kijelzõ felbontása:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: 1366x768
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Videókártya:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Intel HD 5500
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Wifi:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Van
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: LAN:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: 1db
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: HDMI kimenet:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: 1db
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: D-Sub(VGA) kimenet:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: Nincs
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: DisplayPort kimenet:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: 1db mini
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Firewire (IEEE 1394) csatlakozó:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Nincs
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: USB 2.0 port:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: Nincs
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: USB 3.0 port:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: 3db
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: eSATA:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: 1db
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Kártyaolvasó:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Van
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Webkamera:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Érdeklõdj
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Billentyûzet:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Érdeklõdj
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: Akkumulátor:
+2018-09-03 13:31:49 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: 1-3 óra
+2018-09-03 13:31:49 ( Information ) > Success!
+2018-09-03 13:31:49 ( Data Dump ) > Maybe header: Rövid leírás
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB SSD
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Kijelzõ  > 14" 1366x768
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Garancia > <font color="red">6 hónap garancia</font>
+2018-09-03 13:31:49 ( Data Dump ) > Maybe header: Specifikáció
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Gyártó > Dell
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Háttértár típus > SSD
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Kijelzõ mérete > 14&quot;
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Kijelzõ felbontása > 1366x768
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Videókártya > Intel HD 5500
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Wifi > Van
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: LAN > 1db
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: HDMI kimenet > 1db
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: D-Sub(VGA) kimenet > Nincs
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: DisplayPort kimenet > 1db mini
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Firewire (IEEE 1394) csatlakozó > Nincs
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: USB 2.0 port > Nincs
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: USB 3.0 port > 3db
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: eSATA > 1db
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Kártyaolvasó > Van
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Webkamera > Érdeklõdj
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Billentyûzet > Érdeklõdj
+2018-09-03 13:31:49 ( Data Dump ) > Maybe a key-value pair: Akkumulátor > 1-3 óra
+2018-09-03 13:31:49 ( Information ) > Getting JPG image from URL: https://shop.pcunion.hu/image/catalog/laptopok/20170406-DellE7450.jpg
+2018-09-03 13:32:46 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 56
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 65
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 75
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 77
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 78
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 79
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 80
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 81
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 83
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 85
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 86
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 88
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 89
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 90
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 91
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 92
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 93
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 149
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 159
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 161
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 162
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 197
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 230
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 234
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 248
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 264
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 278
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 280
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 307
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 316
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 330
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 339
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 364
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 370
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 371
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 372
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 375
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 381
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 384
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 389
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 393
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 401
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 404
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 408
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 411
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 420
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 423
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 424
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 428
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 430
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 438
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 440
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 441
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 446
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 457
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 460
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 468
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 476
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 488
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 490
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 491
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 494
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 497
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 502
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 503
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 506
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 507
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 508
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 509
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 511
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 512
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 519
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 524
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 525
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 528
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 531
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 535
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 545
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 550
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 552
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 553
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 558
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 559
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 565
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 566
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 568
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 572
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 576
+2018-09-03 13:32:47 ( Data Dump ) > Product Registered: 589
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 590
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 592
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 611
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 614
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 615
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 616
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 617
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 622
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 630
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 633
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 635
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 654
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 655
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 658
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 659
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 662
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 684
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 692
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 696
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 697
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 699
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 712
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 720
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 721
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 725
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 726
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 727
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 739
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 741
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 744
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 749
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 750
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 751
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 752
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 753
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 754
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 755
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 756
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 757
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 758
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 760
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 769
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 770
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 773
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 776
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 845
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 849
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 853
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 854
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 874
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 875
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 886
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 887
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 889
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 890
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 891
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 892
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 893
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 894
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 895
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 896
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 897
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 898
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 899
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 900
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 901
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 902
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 903
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 904
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 905
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 906
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 907
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 908
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 909
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 910
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 911
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 912
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 913
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 914
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 915
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 916
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 917
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 918
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 919
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 920
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 921
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 922
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 923
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 924
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 925
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 926
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 927
+2018-09-03 13:32:48 ( Data Dump ) > Product Registered: 928
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 929
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 930
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 931
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 932
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 933
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 934
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 935
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 936
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 937
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 938
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 939
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 940
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 941
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 942
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 943
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 944
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 945
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 946
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 947
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 948
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 949
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 950
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 951
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 952
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 953
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 954
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 955
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 956
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 957
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 958
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 959
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 960
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 961
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 962
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 963
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 964
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 965
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 966
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 967
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 968
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 969
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 970
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 971
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 972
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 973
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 974
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 975
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 976
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 977
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 978
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 987
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 988
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 989
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 990
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 991
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 992
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 993
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 994
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 995
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 996
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 997
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 998
+2018-09-03 13:32:49 ( Data Dump ) > Product Registered: 999
+2018-09-03 13:32:49 ( Information ) > CSV received Count: 245
+2018-09-03 13:32:54 ( Information ) > Getting URL: https://shop.pcunion.hu/index.php?route=product/product&product_id=928
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <i class="fa fa-phone"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Kosár tartalma</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/cart
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Fizetés</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/checkout
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Belépés" -> HREF =  https://shop.pcunion.hu/index.php?route=account/login
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <i class="fa fa-sign-in"></i> <span class="hidden-xs hidden-sm hidden-md">Regisztráció" -> HREF =  https://shop.pcunion.hu/index.php?route=account/register
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/catalog/logo.jpg" title="PC Union Webáruház" alt="PC Union Webáruház" class="img-responsive" />" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Laptop" -> HREF =  https://shop.pcunion.hu/laptop-hasznalt
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Asztali PC" -> HREF =  https://shop.pcunion.hu/asztali-szamitogep-hasznalt
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Monitor" -> HREF =  https://shop.pcunion.hu/monitor-hasznalt
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Szerver" -> HREF =  https://shop.pcunion.hu/szerver-hasznalt
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Nyomtató" -> HREF =  https://shop.pcunion.hu/nyomtato-hasznalt
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Laptop akkumulátor" -> HREF =  https://shop.pcunion.hu/laptop-akkumulator
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Alkatrész" -> HREF =  https://shop.pcunion.hu/hasznalt-pc-laptop-alkatreszek 
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Szoftver" -> HREF =  https://shop.pcunion.hu/szoftver-hasznalt
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Szolgáltatás" -> HREF =  https://shop.pcunion.hu/szolgaltatas
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <i class="fa fa-home"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 13:32:54 ( Data Dump ) > Link found: DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" -> HREF =  https://shop.pcunion.hu/dell-e7450-core-i5-5300u-4gb-128gb-ssd-nodvd
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-450x450.jpg" title="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" alt="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" itemprop="image" />" -> HREF =  https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-800x800.jpg
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Leírás" -> HREF =  #tab-description
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Specifikáció" -> HREF =  #tab-specification
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Gyártói link" -> HREF =  http://www.dell.com/hu/kis-es-kozepvallalat/p/latitude-e7450-ultrabook/pd
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Review" -> HREF =  https://www.notebookcheck.net/Dell-Latitude-14-E7450-Ultrabook-Review.135484.0.html
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Besorolás:" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 13:32:54 ( Data Dump ) > Link found: <span itemprop="brand">Dell</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=product/manufacturer/info&manufacturer_id=16
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Bemutatkozás" -> HREF =  https://shop.pcunion.hu/bemutatkozas
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Vásárlási tudnivalók" -> HREF =  https://shop.pcunion.hu/delivery
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Garancia" -> HREF =  https://shop.pcunion.hu/privacy
+2018-09-03 13:32:54 ( Data Dump ) > Link found: Általános szerzõdési feltételek" -> HREF =  https://shop.pcunion.hu/terms
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Vásárlói információ" -> HREF =  https://shop.pcunion.hu/vasarloi-informacio
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Besorolás kategóriák" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Kapcsolat" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Visszáru" -> HREF =  https://shop.pcunion.hu/index.php?route=account/return/add
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Honlaptérkép" -> HREF =  https://shop.pcunion.hu/index.php?route=information/sitemap
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Fiókom" -> HREF =  https://shop.pcunion.hu/index.php?route=account/account
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Eddigi megrendeléseim" -> HREF =  https://shop.pcunion.hu/index.php?route=account/order
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Kívánságlista" -> HREF =  https://shop.pcunion.hu/index.php?route=account/wishlist
+2018-09-03 13:32:55 ( Data Dump ) > Link found: Hírlevél" -> HREF =  https://shop.pcunion.hu/index.php?route=account/newsletter
+2018-09-03 13:32:55 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 13:32:55 ( Data Dump ) > ROW #66CELL #1 DATA ADDED: <strong>Rövid leírás</strong>
+2018-09-03 13:32:55 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Processzor:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 13:32:55 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: Memória:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: 4GB
+2018-09-03 13:32:55 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: Háttértár mérete:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: 128GB SSD
+2018-09-03 13:32:55 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Optikai meghajtó: 
+2018-09-03 13:32:55 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Nincs
+2018-09-03 13:32:55 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: Kijelzõ: 
+2018-09-03 13:32:55 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: 14" 1366x768
+2018-09-03 13:32:55 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: Garancia:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: <font color="red">6 hónap garancia</font>
+2018-09-03 13:32:55 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 13:32:55 ( Data Dump ) > ROW #158CELL #1 DATA ADDED: <strong>Specifikáció</strong>
+2018-09-03 13:32:55 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Gyártó:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Dell
+2018-09-03 13:32:55 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Processzor:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 13:32:55 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: Memória:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: 4GB
+2018-09-03 13:32:55 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: Háttértár típus:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: SSD
+2018-09-03 13:32:55 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: Háttértár mérete:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: 128GB
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Optikai meghajtó: 
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Nincs
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: Kijelzõ mérete:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: 14&quot;
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: Kijelzõ felbontása:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: 1366x768
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Videókártya:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Intel HD 5500
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Wifi:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Van
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: LAN:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: 1db
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: HDMI kimenet:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: 1db
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: D-Sub(VGA) kimenet:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: Nincs
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: DisplayPort kimenet:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: 1db mini
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Firewire (IEEE 1394) csatlakozó:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Nincs
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: USB 2.0 port:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: Nincs
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: USB 3.0 port:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: 3db
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: eSATA:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: 1db
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Kártyaolvasó:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Van
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Webkamera:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Érdeklõdj
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Billentyûzet:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Érdeklõdj
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: Akkumulátor:
+2018-09-03 13:32:55 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: 1-3 óra
+2018-09-03 13:32:55 ( Information ) > Success!
+2018-09-03 13:32:55 ( Data Dump ) > Maybe header: Rövid leírás
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB SSD
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Kijelzõ  > 14" 1366x768
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Garancia > <font color="red">6 hónap garancia</font>
+2018-09-03 13:32:55 ( Data Dump ) > Maybe header: Specifikáció
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Gyártó > Dell
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Háttértár típus > SSD
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB
+2018-09-03 13:32:55 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Kijelzõ mérete > 14&quot;
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Kijelzõ felbontása > 1366x768
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Videókártya > Intel HD 5500
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Wifi > Van
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: LAN > 1db
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: HDMI kimenet > 1db
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: D-Sub(VGA) kimenet > Nincs
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: DisplayPort kimenet > 1db mini
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Firewire (IEEE 1394) csatlakozó > Nincs
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: USB 2.0 port > Nincs
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: USB 3.0 port > 3db
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: eSATA > 1db
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Kártyaolvasó > Van
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Webkamera > Érdeklõdj
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Billentyûzet > Érdeklõdj
+2018-09-03 13:32:56 ( Data Dump ) > Maybe a key-value pair: Akkumulátor > 1-3 óra
+2018-09-03 13:32:56 ( Information ) > Getting JPG image from URL: https://shop.pcunion.hu/image/catalog/laptopok/20170406-DellE7450.jpg
+2018-09-03 18:10:19 ( Information ) > Getting CSV from URL: https://shop.pcunion.hu/arlista/arlista2.php?email=garamszegit@gmail.com&pass=c2c0b999d197ee4afefe29ee62b2e7d9db31e658&groupid=1
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 56
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 65
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 75
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 77
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 78
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 79
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 80
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 81
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 83
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 85
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 86
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 88
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 89
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 90
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 91
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 92
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 93
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 149
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 159
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 161
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 162
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 197
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 230
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 234
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 248
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 264
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 278
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 280
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 307
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 316
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 330
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 339
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 364
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 370
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 371
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 372
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 375
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 381
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 384
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 389
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 393
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 401
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 404
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 408
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 411
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 420
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 423
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 424
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 428
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 430
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 438
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 440
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 441
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 446
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 457
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 460
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 468
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 476
+2018-09-03 18:10:20 ( Data Dump ) > Product Registered: 488
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 490
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 491
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 494
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 497
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 502
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 503
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 506
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 507
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 508
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 509
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 511
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 512
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 519
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 524
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 525
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 528
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 531
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 535
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 545
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 550
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 552
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 553
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 558
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 559
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 565
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 566
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 568
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 572
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 576
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 589
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 590
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 592
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 611
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 614
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 615
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 616
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 617
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 622
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 630
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 633
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 635
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 654
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 655
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 658
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 659
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 662
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 684
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 692
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 696
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 697
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 699
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 712
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 720
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 721
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 725
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 726
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 727
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 739
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 741
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 744
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 749
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 750
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 751
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 752
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 753
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 754
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 755
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 756
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 757
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 758
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 760
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 769
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 770
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 773
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 776
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 845
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 849
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 853
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 854
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 874
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 875
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 886
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 887
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 889
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 890
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 891
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 892
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 893
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 894
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 895
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 896
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 897
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 898
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 899
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 900
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 901
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 902
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 903
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 904
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 905
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 906
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 907
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 908
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 909
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 910
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 911
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 912
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 913
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 914
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 915
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 916
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 917
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 918
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 919
+2018-09-03 18:10:21 ( Data Dump ) > Product Registered: 920
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 921
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 922
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 923
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 924
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 925
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 926
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 927
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 928
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 929
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 930
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 931
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 932
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 933
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 934
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 935
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 936
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 937
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 938
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 939
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 940
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 941
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 942
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 943
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 944
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 945
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 946
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 947
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 948
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 949
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 950
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 951
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 952
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 953
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 954
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 955
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 956
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 957
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 958
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 959
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 960
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 961
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 962
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 963
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 964
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 965
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 966
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 967
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 968
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 969
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 970
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 971
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 972
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 973
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 974
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 975
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 976
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 977
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 978
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 987
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 988
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 989
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 990
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 991
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 992
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 993
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 994
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 995
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 996
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 997
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 998
+2018-09-03 18:10:22 ( Data Dump ) > Product Registered: 999
+2018-09-03 18:10:22 ( Information ) > CSV received Count: 245
+2018-09-03 18:10:25 ( Information ) > Getting URL: https://shop.pcunion.hu/index.php?route=product/product&product_id=928
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <i class="fa fa-phone"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Kosár tartalma</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/cart
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <i class="fa fa-share"></i> <span class="hidden-xs hidden-sm hidden-md">Fizetés</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=checkout/checkout
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <i class="fa fa-user"></i> <span class="hidden-xs hidden-sm hidden-md">Belépés" -> HREF =  https://shop.pcunion.hu/index.php?route=account/login
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <i class="fa fa-sign-in"></i> <span class="hidden-xs hidden-sm hidden-md">Regisztráció" -> HREF =  https://shop.pcunion.hu/index.php?route=account/register
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/catalog/logo.jpg" title="PC Union Webáruház" alt="PC Union Webáruház" class="img-responsive" />" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Laptop" -> HREF =  https://shop.pcunion.hu/laptop-hasznalt
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Asztali PC" -> HREF =  https://shop.pcunion.hu/asztali-szamitogep-hasznalt
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Monitor" -> HREF =  https://shop.pcunion.hu/monitor-hasznalt
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Szerver" -> HREF =  https://shop.pcunion.hu/szerver-hasznalt
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Nyomtató" -> HREF =  https://shop.pcunion.hu/nyomtato-hasznalt
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Laptop akkumulátor" -> HREF =  https://shop.pcunion.hu/laptop-akkumulator
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Alkatrész" -> HREF =  https://shop.pcunion.hu/hasznalt-pc-laptop-alkatreszek 
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Szoftver" -> HREF =  https://shop.pcunion.hu/szoftver-hasznalt
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Szolgáltatás" -> HREF =  https://shop.pcunion.hu/szolgaltatas
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <i class="fa fa-home"></i>" -> HREF =  https://shop.pcunion.hu/index.php?route=common/home
+2018-09-03 18:10:25 ( Data Dump ) > Link found: DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" -> HREF =  https://shop.pcunion.hu/dell-e7450-core-i5-5300u-4gb-128gb-ssd-nodvd
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <img src="https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-450x450.jpg" title="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" alt="DELL E7450 / Core i5 5300U / 4096 / 128 SSD / NODVD" itemprop="image" />" -> HREF =  https://shop.pcunion.hu/image/cache/catalog/laptopok/20170406-DellE7450-800x800.jpg
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Leírás" -> HREF =  #tab-description
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Specifikáció" -> HREF =  #tab-specification
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Gyártói link" -> HREF =  http://www.dell.com/hu/kis-es-kozepvallalat/p/latitude-e7450-ultrabook/pd
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Review" -> HREF =  https://www.notebookcheck.net/Dell-Latitude-14-E7450-Ultrabook-Review.135484.0.html
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Besorolás:" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 18:10:25 ( Data Dump ) > Link found: <span itemprop="brand">Dell</span>" -> HREF =  https://shop.pcunion.hu/index.php?route=product/manufacturer/info&manufacturer_id=16
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Bemutatkozás" -> HREF =  https://shop.pcunion.hu/bemutatkozas
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Vásárlási tudnivalók" -> HREF =  https://shop.pcunion.hu/delivery
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Garancia" -> HREF =  https://shop.pcunion.hu/privacy
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Általános szerzõdési feltételek" -> HREF =  https://shop.pcunion.hu/terms
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Vásárlói információ" -> HREF =  https://shop.pcunion.hu/vasarloi-informacio
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Besorolás kategóriák" -> HREF =  https://shop.pcunion.hu/besorolas-kategoriak
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Kapcsolat" -> HREF =  https://shop.pcunion.hu/index.php?route=information/contact
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Visszáru" -> HREF =  https://shop.pcunion.hu/index.php?route=account/return/add
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Honlaptérkép" -> HREF =  https://shop.pcunion.hu/index.php?route=information/sitemap
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Fiókom" -> HREF =  https://shop.pcunion.hu/index.php?route=account/account
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Eddigi megrendeléseim" -> HREF =  https://shop.pcunion.hu/index.php?route=account/order
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Kívánságlista" -> HREF =  https://shop.pcunion.hu/index.php?route=account/wishlist
+2018-09-03 18:10:25 ( Data Dump ) > Link found: Hírlevél" -> HREF =  https://shop.pcunion.hu/index.php?route=account/newsletter
+2018-09-03 18:10:25 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 18:10:25 ( Data Dump ) > ROW #66CELL #1 DATA ADDED: <strong>Rövid leírás</strong>
+2018-09-03 18:10:25 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Processzor:
+2018-09-03 18:10:25 ( Data Dump ) > ROW #140CELL #2 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 18:10:25 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: Memória:
+2018-09-03 18:10:25 ( Data Dump ) > ROW #178CELL #3 DATA ADDED: 4GB
+2018-09-03 18:10:25 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: Háttértár mérete:
+2018-09-03 18:10:25 ( Data Dump ) > ROW #231CELL #4 DATA ADDED: 128GB SSD
+2018-09-03 18:10:25 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Optikai meghajtó: 
+2018-09-03 18:10:25 ( Data Dump ) > ROW #281CELL #5 DATA ADDED: Nincs
+2018-09-03 18:10:25 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: Kijelzõ: 
+2018-09-03 18:10:25 ( Data Dump ) > ROW #329CELL #6 DATA ADDED: 14" 1366x768
+2018-09-03 18:10:25 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: Garancia:
+2018-09-03 18:10:25 ( Data Dump ) > ROW #406CELL #7 DATA ADDED: <font color="red">6 hónap garancia</font>
+2018-09-03 18:10:25 ( Data Dump ) > Table found: " class="table table-striped""  
+2018-09-03 18:10:25 ( Data Dump ) > ROW #158CELL #1 DATA ADDED: <strong>Specifikáció</strong>
+2018-09-03 18:10:25 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Gyártó:
+2018-09-03 18:10:25 ( Data Dump ) > ROW #354CELL #2 DATA ADDED: Dell
+2018-09-03 18:10:25 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Processzor:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #521CELL #3 DATA ADDED: Intel Core i5 5300U 
+2018-09-03 18:10:26 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: Memória:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #668CELL #4 DATA ADDED: 4GB
+2018-09-03 18:10:26 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: Háttértár típus:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #823CELL #5 DATA ADDED: SSD
+2018-09-03 18:10:26 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: Háttértár mérete:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #981CELL #6 DATA ADDED: 128GB
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Optikai meghajtó: 
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1140CELL #7 DATA ADDED: Nincs
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: Kijelzõ mérete:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1299CELL #8 DATA ADDED: 14&quot;
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: Kijelzõ felbontása:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1462CELL #9 DATA ADDED: 1366x768
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Videókártya:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1623CELL #10 DATA ADDED: Intel HD 5500
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Wifi:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1767CELL #11 DATA ADDED: Van
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: LAN:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #1910CELL #12 DATA ADDED: 1db
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: HDMI kimenet:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2062CELL #13 DATA ADDED: 1db
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: D-Sub(VGA) kimenet:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2222CELL #14 DATA ADDED: Nincs
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: DisplayPort kimenet:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2386CELL #15 DATA ADDED: 1db mini
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Firewire (IEEE 1394) csatlakozó:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2559CELL #16 DATA ADDED: Nincs
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: USB 2.0 port:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2713CELL #17 DATA ADDED: Nincs
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: USB 3.0 port:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #2865CELL #18 DATA ADDED: 3db
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: eSATA:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3010CELL #19 DATA ADDED: 1db
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Kártyaolvasó:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3162CELL #20 DATA ADDED: Van
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Webkamera:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3317CELL #21 DATA ADDED: Érdeklõdj
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Billentyûzet:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3475CELL #22 DATA ADDED: Érdeklõdj
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: Akkumulátor:
+2018-09-03 18:10:26 ( Data Dump ) > ROW #3630CELL #23 DATA ADDED: 1-3 óra
+2018-09-03 18:10:26 ( Information ) > Success!
+2018-09-03 18:10:26 ( Data Dump ) > Maybe header: Rövid leírás
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB SSD
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Kijelzõ  > 14" 1366x768
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Garancia > <font color="red">6 hónap garancia</font>
+2018-09-03 18:10:26 ( Data Dump ) > Maybe header: Specifikáció
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Gyártó > Dell
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Processzor > Intel Core i5 5300U 
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Memória > 4GB
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Háttértár típus > SSD
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Háttértár mérete > 128GB
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Optikai meghajtó  > Nincs
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Kijelzõ mérete > 14&quot;
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Kijelzõ felbontása > 1366x768
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Videókártya > Intel HD 5500
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Wifi > Van
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: LAN > 1db
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: HDMI kimenet > 1db
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: D-Sub(VGA) kimenet > Nincs
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: DisplayPort kimenet > 1db mini
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Firewire (IEEE 1394) csatlakozó > Nincs
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: USB 2.0 port > Nincs
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: USB 3.0 port > 3db
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: eSATA > 1db
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Kártyaolvasó > Van
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Webkamera > Érdeklõdj
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Billentyûzet > Érdeklõdj
+2018-09-03 18:10:26 ( Data Dump ) > Maybe a key-value pair: Akkumulátor > 1-3 óra
+2018-09-03 18:10:26 ( Information ) > Getting JPG image from URL: https://shop.pcunion.hu/image/catalog/laptopok/20170406-DellE7450.jpg

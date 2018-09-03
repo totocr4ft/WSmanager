@@ -118,7 +118,7 @@ begin
                 try
                   if not Assigned(LProd.ProductSpec) then
                     LProd.ProductSpec := TStringList.Create;
-                  LProd.ProductSpec.AddPair(LTabcontent[0], LTabcontent[1]);
+                  LProd.ProductSpec.Values[LTabcontent[0]] := LTabcontent[1];
                 except
                   on E: exception do
                     Log('Secification fillup failed: ' + E.Message, LEXCEPT);

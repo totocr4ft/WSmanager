@@ -36,6 +36,7 @@ uses IdBaseComponent,IdComponent, IdTCPConnection, IdTCPClient, IdHTTP, IdIOHand
       TWSHtml = class(TWSCommon)
        private
         _ID_client : TIdHTTP;
+        _ID_SSL    : TIdSSLIOHandlerSocketOpenSSL;
          L1,L2, T1,T2, I1,I2: integer;
         _links  : TWShtmlLinks;
         _images : TWShtmlimages;
@@ -75,6 +76,10 @@ constructor TWSHtml.create;
 begin
   inherited;
  _ID_client := TIdHTTP.Create();
+ _ID_SSL    := TIdSSLIOHandlerSocketOpenSSL.Create;
+ _ID_SSL.SSLOptions.Method := sslvSSLv23;
+ _ID_client.IOHandler := _ID_SSL;
+
  T1 :=1;
  T2 :=1;
  L1 :=1;
@@ -154,7 +159,6 @@ begin
 
     LHeader := explode(';', LArr[0]);
 
-    // RESULTSET ÖSSZEFÛZÉS CSV HEADER ALAPJÁN
     for I := 1 to length(LArr) - 1 do
     begin
       if LArr[I] = '' then

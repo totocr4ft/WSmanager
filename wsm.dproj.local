@@ -2,8 +2,8 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2018/06/30 15:40:56.000.530,=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2018/06/30 15:48:23.000.391,D:\Programming20180304\GIT\WSmanager\main.dfm=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
     <Transaction>2018/06/30 15:48:23.000.391,D:\Programming20180304\GIT\WSmanager\main.pas=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/06/30 15:48:23.000.391,D:\Programming20180304\GIT\WSmanager\main.dfm=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
     <Transaction>2018/06/30 15:48:27.000.907,D:\Programming20180304\GIT\WSmanager\wsm.dproj=C:\Users\Toto\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2018/06/30 15:59:31.000.864,=D:\Programming20180304\GIT\WSmanager\Unit1.pas</Transaction>
     <Transaction>2018/06/30 15:59:57.000.692,D:\Programming20180304\GIT\WSmanager\Unit1.pas=D:\Programming20180304\GIT\WSmanager\HTMLtools\HTMLcommon.pas</Transaction>
