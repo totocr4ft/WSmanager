@@ -36,9 +36,9 @@ object Form2: TForm2
   end
   object Memo1: TMemo
     Left = 231
-    Top = 8
+    Top = 118
     Width = 792
-    Height = 722
+    Height = 612
     Anchors = [akLeft, akTop, akRight, akBottom]
     ScrollBars = ssBoth
     TabOrder = 1
@@ -88,5 +88,38 @@ object Form2: TForm2
     Caption = 'Posttest'
     TabOrder = 6
     OnClick = Button4Click
+  end
+  object e_cons_key: TEdit
+    Left = 231
+    Top = 8
+    Width = 242
+    Height = 20
+    TabOrder = 7
+    Text = 'ck_4821e984628b8e4f1b594a59204b9cce13cdd670'
+  end
+  object e_secret: TEdit
+    Left = 231
+    Top = 34
+    Width = 242
+    Height = 20
+    TabOrder = 8
+    Text = 'cs_961956210b582df9ee88ce8c2cdaed3975dad448'
+  end
+  object e_base_url: TEdit
+    Left = 231
+    Top = 66
+    Width = 242
+    Height = 20
+    TabOrder = 9
+    Text = 'http://192.168.1.128/wordpress'
+  end
+  object Button5: TButton
+    Left = 231
+    Top = 92
+    Width = 75
+    Height = 25
+    Caption = 'Test RESTAPI'
+    TabOrder = 10
+    OnClick = Button5Click
   end
 end

@@ -24,6 +24,7 @@
     <Transaction>2018/08/29 08:03:53.000.759,C:\Users\Toto\Documents\GitHub\WSmanager\WSPCUnion\WSPCUnionMain.pas=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
     <Transaction>2018/08/29 08:05:57.000.962,=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
     <Transaction>2018/08/29 08:06:18.000.507,C:\Users\Toto\Documents\GitHub\WSmanager\WScommon\WSShopCommon.pas=C:\Users\Toto\Documents\GitHub\WSmanager\Unit1.pas</Transaction>
+    <Transaction>2019/04/15 09:46:19.849,=C:\projects\wsmanager\WCRestApi.pas</Transaction>
   </Transactions>
 	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="HTMLtools"/>
@@ -42,5 +43,6 @@
     <File Path="WSPCUnion\WSPCUnionMain.pas"/>
     <File Path="main.pas"/>
     <File Path="main.dfm"/>
+    <File Path="WCRestApi.pas"/>
   </ProjectSortOrder>
 </BorlandProject>

@@ -13,7 +13,8 @@ uses
   WSOCProduct in 'WSOC\WSOCProduct.pas',
   WSProductCommon in 'WScommon\WSProductCommon.pas',
   WSPCUnionMain in 'WSPCUnion\WSPCUnionMain.pas',
-  WSShopCommon in 'WScommon\WSShopCommon.pas';
+  WSShopCommon in 'WScommon\WSShopCommon.pas',
+  WCRestApi in 'WCRestApi.pas';
 
 {$R *.res}
 
