@@ -5,24 +5,24 @@ uses Classes, System.SysUtils, System.Generics.Collections,
      WSOCPRoduct,
      WSCommon,
      WSHtmlCommon,
-     WSDBcommon;
+     WSDBcommon,
+     WCRestApi;
 
   type
 
   TWSPCUnion = class(TWSCommon)
   private
-    FPRoducts: TWSOCPRoducts;
+    FPRoducts: TWCProducts;
     FHTmlManager: TWSHtml;
     FLangID: Integer;
     procedure RecLog(Amsg:string; Atype: TWSmsgtype);
   public
-    property Products: TWSOCPRoducts read FPRoducts;
+    property Products: TWCProducts read FPRoducts;
     property LanguageID: integer read FLangID write FLangID;
     function ReadCSV: Boolean;
     function FillProductsSpec(AIndex: integer): Boolean;
-    function FillProductsImage(AIndex: integer): Boolean;
-    function GetProductByIndex(AIndex: integer):TWSOCProduct;
-    function GetProductByID(AID: integer): TWSOCProduct;
+    function GetProductByIndex(AIndex: integer):TWCProduct;
+    function GetProductByID(AID: integer): TWCProduct;
     constructor Create;
   end;
 
@@ -44,41 +44,60 @@ begin
   FLangID := 0;
   FHTmlManager := TWSHtml.create;
   FHTmlManager.OnLog := RecLog;
-  FPRoducts := TDictionary<Integer, TWSOCProduct>.Create;
+  FPRoducts := TWCProducts.Create;
 end;
 
-function TWSPCUnion.FillProductsImage(AIndex: integer): Boolean;
+function TWSPCUnion.ReadCSV: Boolean;
 var
-  LProd: TWSOCProduct;
+  LRes : Tresultset;
+  LProduct: TWCProduct;
+  I, LProductID: Integer;
+  LMemStream: TStream;
+  LImage: TWCProductImage;
 begin
   Result := False;
-  if FPRoducts.Count = 0 then
+  LRes := FHTmlManager.GetCSV(PCU_GT_PR_LIST);
+  if Length(LRes) = 0 then
   begin
-    Log('No product!', LERROR);
-    Exit;
+    Log('CSV Error', LERROR);
+    exit;
   end;
+  FPRoducts.Clear;
+  LMemStream := TStream.Create;
+  for I := 0 to Length(Lres) - 1 do
+  begin
+    try
+      if not TryStrToInt(LRES[i].Values['product_id'], LProductID) then
+      begin
+        Log('ID Error ' + LRES[i].Values['product_id'] , LERROR);
+        Continue;
+      end;
+      LProduct.id := LProductID;
+      LProduct.sku := LRES[i].Values['model'];
+      LProduct.name := LRES[i].Values['name'];
+      LProduct.regular_price := LRES[i].Values['your_price'+#$D];
+      LProduct.regular_price := StringReplace(LProduct.regular_price, #$D, '', [rfReplaceAll, rfIgnoreCase]);
+      LProduct.stock_quantity := StrToInt(LRES[i].Values['quantity']);
+      LProduct.images := TDictionary<Integer, TWCProductImage>.Create();
+      LImage.src := LRES[i].Values['image'];
+      LProduct.images.Add(0 ,LImage);
 
-  try
-    LProd := FPRoducts[FPRoducts.ToArray[AIndex].Key];
-    if LProd.ProductData.Values['image'] = '' then
-      exit;
-
-    LProd.ProductImage := FHTmlManager.GetJPG(LProd.ProductData.Values['image']);
-    if not Assigned(LProd.ProductImage) then
-      exit;
-  except
-    on E: exception do
-    begin
-      Log('Image fillup failed: ' + E.Message, LEXCEPT);
-      exit;
+      FPRoducts.Add(I, LProduct);
+     // FillProductsSpec(FPRoducts.Count - 1);
+      Log('Product Registered: ' + IntToStr( LProduct.ID ) , LDUMPINFO);
+    Except
+      on E: exception do
+        Log('Product List creation error: ' + E.Message, LEXCEPT);
     end;
   end;
+  Log('CSV received Count: ' + IntToStr(Length(LRes)));
   Result := True;
 end;
 
+
 function TWSPCUnion.FillProductsSpec(AIndex: integer): Boolean;
 var
-  LProd: TWSOCProduct;
+  LProd: TWCProduct;
   LTable: TWShtmlTable;
   LTabcontents: TResultset;
   LTabcontent: TStringlist;
@@ -93,7 +112,7 @@ begin
 
     try
       LProd := FPRoducts[FPRoducts.ToArray[AIndex].Key];
-      FHTmlManager.get(PCU_GET_PRODUCT + IntToStr(LProd.ID));
+      FHTmlManager.get(PCU_GET_PRODUCT + IntToStr(LProd.id));
 
       for LTable in FHTmlManager.Tables.ToArray do
       begin
@@ -116,9 +135,10 @@ begin
               if LHeader = 'Specifikáció' then
               begin
                 try
-                  if not Assigned(LProd.ProductSpec) then
-                    LProd.ProductSpec := TStringList.Create;
-                  LProd.ProductSpec.Values[LTabcontent[0]] := LTabcontent[1];
+                    LProd.description := LProd.description + '<table>';
+                    LProd.description := LProd.description + '<tr><td>'+LTabcontent[0]+'</td><td>'+LTabcontent[1]+'</td></tr>';
+                    LProd.description := LProd.description + '</table>';
+
                 except
                   on E: exception do
                     Log('Secification fillup failed: ' + E.Message, LEXCEPT);
@@ -139,56 +159,14 @@ begin
 
 end;
 
-function TWSPCUnion.GetProductByID(AID: integer): TWSOCProduct;
+function TWSPCUnion.GetProductByID(AID: integer): TWCProduct;
 begin
   Result := FPRoducts[AID];
 end;
 
-function TWSPCUnion.GetProductByIndex(AIndex: integer): TWSOCProduct;
+function TWSPCUnion.GetProductByIndex(AIndex: integer): TWCProduct;
 begin
   Result := FPRoducts[FPRoducts.ToArray[AIndex].Key];
-end;
-
-function TWSPCUnion.ReadCSV: Boolean;
-var
-  LRes : Tresultset;
-  LProduct: TWSOCProduct;
-  I, LProductID: Integer;
-  LMemStream: TStream;
-begin
-  Result := False;
-  LRes := FHTmlManager.GetCSV(PCU_GT_PR_LIST);
-  if Length(LRes) = 0 then
-  begin
-    Log('CSV Error', LERROR);
-    exit;
-  end;
-  FPRoducts.Clear;
-  LMemStream := TStream.Create;
-  for I := 0 to Length(Lres) - 1 do
-  begin
-    try
-      if not TryStrToInt(LRES[i].Values['product_id'], LProductID) then
-      begin
-        Log('ID Error ' + LRES[i].Values['product_id'] , LERROR);
-        Continue;
-      end;
-
-
-      LProduct := TWSOCProduct.create(LProductID,
-                                      LanguageID,
-                                      LRes[i]
-                                     );
-
-      FPRoducts.Add(LProduct.ID, LProduct);
-      Log('Product Registered: ' + IntToStr( LProduct.ID ) , LDUMPINFO);
-    Except
-      on E: exception do
-        Log('Product List creation error: ' + E.Message, LEXCEPT);
-    end;
-  end;
-  Log('CSV received Count: ' + IntToStr(Length(LRes)));
-  Result := True;
 end;
 
 procedure TWSPCUnion.RecLog(Amsg: string; Atype: TWSmsgtype);

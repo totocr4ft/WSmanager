@@ -95,7 +95,7 @@ object Form2: TForm2
     Width = 242
     Height = 20
     TabOrder = 7
-    Text = 'ck_4821e984628b8e4f1b594a59204b9cce13cdd670'
+    Text = 'ck_8fc193b5bd5fde09d466d6d0c5afe44394d4110e'
   end
   object e_secret: TEdit
     Left = 231
@@ -103,7 +103,7 @@ object Form2: TForm2
     Width = 242
     Height = 20
     TabOrder = 8
-    Text = 'cs_961956210b582df9ee88ce8c2cdaed3975dad448'
+    Text = 'cs_9b7a46cbecb16454cabbd5dad8e0681b94c0d4ee'
   end
   object e_base_url: TEdit
     Left = 231
@@ -111,7 +111,7 @@ object Form2: TForm2
     Width = 242
     Height = 20
     TabOrder = 9
-    Text = 'http://192.168.1.128/wordpress'
+    Text = 'http://192.168.1.7/wordpress'
   end
   object Button5: TButton
     Left = 231
@@ -121,5 +121,23 @@ object Form2: TForm2
     Caption = 'Test RESTAPI'
     TabOrder = 10
     OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 488
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Button6'
+    TabOrder = 11
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 664
+    Top = 8
+    Width = 177
+    Height = 25
+    Caption = 'Test MAIN Download 1'
+    TabOrder = 12
+    OnClick = Button7Click
   end
 end

@@ -4,7 +4,8 @@ interface
 
 uses
   System.SysUtils, System.JSON,  REST.Client, REST.Types, Data.Bind.Components, Data.Bind.ObjectScope,
-  REST.Authenticator.OAuth, System.Generics.Collections;
+  REST.Authenticator.OAuth, System.Generics.Collections, IdHTTP, System.Classes, REST.HttpClient, REST.Utils,
+  WSCommon;
 
 type
   TWCStringArray = array of string;
@@ -16,11 +17,7 @@ type
     slug: string;
   end;
 
-  TWCProductCategory = record
-    id: Integer;
-    name: string;
-    slug: string;
-  end;
+
 
   TWCProductDownload = record
     id: string;
@@ -60,22 +57,22 @@ type
     options: TWCStringArray;
   end;
 
-  TWCCategory = record
+  TWCProductMetadata = record
+    id: Integer;
+    key: string;
+    value: string;
+  end;
+
+  TWCProductCategory = record
     id: Integer;
     name: string;
     slug: string;
     parent: Integer;
     description: string;
     display: string;
-    image: string;
+    image: TWCProductImage;
     menu_order: Integer;
-    count: Integer;
-  end;
-
-  TWCProductMetadata = record
-    id: Integer;
-    key: string;
-    value: string;
+    count: integer;
   end;
 
   TWCProductDimensions = TList<TWCPRoductDimension>;
@@ -86,7 +83,7 @@ type
   TWCProductTags = TDictionary<Integer, TWCProductTag>;
   TWCProductCategories = TDictionary<Integer, TWCProductCategory>;
   TWCProductImages = TDictionary<Integer, TWCProductImage>;
-  TWCategories = TDictionary<integer , TWCCategory>;
+  TWCategories = TDictionary<integer , TWCProductCategory>;
 
   TWCProduct = record
     id: integer;
@@ -156,7 +153,7 @@ type
   end;
   TWCProducts = TDictionary<integer, TWCProduct>;
 
-  TWCProductManager = class
+  TWCProductManager = class(TWSCommon)
   private
     FApiConsKey: string;
     FApiConsSecret: string;
@@ -167,7 +164,15 @@ type
     FlastResponse: string;
     FOAuth1Authenticator: TOAuth1Authenticator;
     FProducts: TWCProducts;
-    procedure AddProduct(AJson: TJSONObject);
+    FCategories: TWCProductCategories;
+    FLastRequest: string;
+    FLastSignature: string;
+    procedure AddProduct(AJson: TJSONObject); overload;
+    procedure AddProduct(AProduct: TWCProduct); overload;
+    procedure AddCategory(ACategory: TWCProductCategory); overload;
+    procedure AddCategory(Ajson: TJSONObject); overload;
+    function JsonToProduct(AJson: TJsonobject): TWCProduct;
+    function JsonToCategory(AJson: TJsonobject): TWCProductCategory;
     // JSON READEREK
     function GetProductDownloads(AJson: TJsonValue): TWCProductDownloads;
     function GetProductDimensions(AJson: TJsonValue): TWCProductDimensions;
@@ -179,16 +184,29 @@ type
     function GetProductMetaData(AJson: TJsonValue): TWCProductMetadatas;
     function GetIDArray(AJson: TJSONValue): TWCIntArray;
     function GetStringArray(AJson: TJSONValue): TWCStringArray;
+    procedure GetCategories;
     procedure OAuth;
+    procedure Prepare;
   public
     constructor Create(AApiConsKey, AApiConsSecret, ABaseUrl: string);
+    function CreateProduct(AProduct: TWCProduct):TWCProduct;
+    function ModProduct(Id: integer; AProduct: TWCProduct): TWCProduct;
+    procedure DownloadCategories;
     procedure DownloadProducts;
     function LastResponse: string;
+    function Products: TWCProducts;
+    procedure DeleteAllProduct;
+    procedure DeleteProduct(AProdId: Integer);
   end;
 
 implementation
-
+uses main;
 { TWCProductManager }
+
+procedure TWCProductManager.AddProduct(AProduct: TWCProduct);
+begin
+  FProducts.Add(AProduct.id, AProduct);
+end;
 
 constructor TWCProductManager.Create(AApiConsKey, AApiConsSecret, ABaseUrl: string);
 begin
@@ -198,51 +216,57 @@ begin
   FRESTClient    := TRESTClient.Create(ABaseUrl);
   FRESTRequest   := TRESTRequest.Create(nil);
   FRESTResponse  := TRESTResponse.Create(nil);
+  FCategories    := TWCProductCategories.Create();
   FOAuth1Authenticator := TOAuth1Authenticator.Create(nil);
   FProducts := TDictionary<Integer, TWCProduct>.Create();
   FRESTRequest.Client := FRESTClient;
   FRESTRequest.Response := FRESTResponse;
 end;
 
+procedure TWCProductManager.DeleteAllProduct;
+var
+  LProduct: TWCProduct;
+  I: Integer;
+begin
+  for I := 0 to FProducts.Count - 1 do
+  begin
+    try
+      DeleteProduct( FProducts[i].id );
+    except
+
+    end;
+  end;
+end;
+
+procedure TWCProductManager.DeleteProduct(AProdId: Integer);
+begin
+  Prepare;
+  FRESTClient.BaseURL := FApiBaseUrl + '/wp-json/wc/v3/Products/'+ IntToStr(AProdId);
+  FRESTRequest.Method := REST.Types.rmDELETE;
+  OAuth;
+  FRESTRequest.Execute;
+end;
+
 procedure TWCProductManager.OAuth;
 var
   LNonce: string;
-  LSignature: string;
   LTimestamp: string;
 begin
-  FRESTRequest.Params.Clear;
+  if(Assigned(FOAuth1Authenticator)) then
+    FOAuth1Authenticator.Free;
+  FOAuth1Authenticator := TOAuth1Authenticator.Create(nil);
+
   LNonce := FOAuth1Authenticator.Nonce;
   FOAuth1Authenticator.ConsumerSecret := FApiConsSecret;
   FRESTRequest.AddParameter('oauth_consumer_key', FApiConsKey);
   FRESTRequest.AddParameter('oauth_consumer_secret', FApiConsSecret);
-  LSignature := FOAuth1Authenticator.SigningClass.BuildSignature(FRESTRequest, FOAuth1Authenticator);
+  FLastSignature := FOAuth1Authenticator.SigningClass.BuildSignature(FRESTRequest, FOAuth1Authenticator);
   LTimestamp := FOAuth1Authenticator.timeStamp.DeQuotedString;
   FRESTRequest.AddParameter('oauth_timestamp', LTimestamp);
   FRESTRequest.AddParameter('oauth_nonce', LNonce);
-  FRESTRequest.AddParameter('oauth_signature', LSignature );
+  FRESTRequest.AddParameter('oauth_signature', FLastSignature );
   FRESTRequest.AddParameter('oauth_signature_method', 'HMAC-SHA1');
   FRESTRequest.AddParameter('oauth_version', '1.0');
-end;
-
-procedure TWCProductManager.DownloadProducts;
-var
- LMainArray: TJSONArray;
- LMainValue: TJSONValue;
- LItem     : TJSONValue;
- LJsonValue: TJSONValue;
- LJsonObj: TJSONObject;
-begin
-  FRESTClient.BaseURL := FApiBaseUrl + '/wp-json/wc/v3/Products';
-  FRESTRequest.Method := REST.Types.rmGET;
-  OAuth;
-  FRESTRequest.Execute;
-  FlastResponse := FRESTResponse.JSONText;
-  LMainValue := FRESTResponse.JSONValue;
-  LMainArray := LMainValue as TJSONArray;
-  for LJsonValue in LMainArray do
-   begin
-      AddProduct(LJsonValue as TJSONObject);
-   end;
 end;
 
 function TWCProductManager.LastResponse: string;
@@ -253,6 +277,14 @@ end;
 //**************  JSON OBJECT -> TWCPRODUCT *************  //
 
 procedure TWCProductManager.AddProduct(AJson: TJSONObject);
+var
+  LProduct: TWCProduct;
+begin
+  LProduct := JsonToProduct(AJson);
+  FProducts.Add(FProducts.Count, JsonToProduct(AJson));
+end;
+
+function TWCProductManager.JsonToProduct(AJson: TJsonobject): TWCProduct;
 var I: Integer;
     LProduct: TWCProduct;
 begin
@@ -321,7 +353,12 @@ begin
   LProduct.grouped_products := GetIDArray(AJson.GetValue('grouped_products'));
   LProduct.menu_order := AJson.GetValue<Integer>('menu_order');
   LProduct.meta_data := GetProductMetaData(AJson.GetValue('meta_data'));
-  FProducts.Add(AJson.GetValue<Integer>('id'), LProduct);
+  Result := LProduct;
+end;
+
+procedure TWCProductManager.GetCategories;
+begin
+
 end;
 
 function TWCProductManager.GetIDArray(AJson: TJSONValue): TWCIntArray;
@@ -476,7 +513,254 @@ begin
   end;
 end;
 
-// *************************** //
+procedure TWCProductManager.DownloadProducts;
+var
+ LMainArray: TJSONArray;
+ LMainValue: TJSONValue;
+ LItem     : TJSONValue;
+ LJsonValue: TJSONValue;
+ LJsonObj: TJSONObject;
+ Ltimestamp, Lnonce: string;
+begin
+  FProducts.Clear;
+  Prepare;
+  FRESTClient.BaseURL := FApiBaseUrl + '/wp-json/wc/v3/products';
+  FRESTRequest.Method := REST.Types.rmGET;
+    if(Assigned(FOAuth1Authenticator)) then
+    FOAuth1Authenticator.Free;
+  FOAuth1Authenticator := TOAuth1Authenticator.Create(nil);
+
+  LNonce := FOAuth1Authenticator.Nonce;
+  FOAuth1Authenticator.ConsumerSecret := FApiConsSecret;
+  FRESTRequest.AddParameter('oauth_consumer_key', FApiConsKey);
+  FRESTRequest.AddParameter('oauth_consumer_secret', FApiConsSecret);
+  FRESTRequest.AddParameter('per_page', '100');
+  FLastSignature := FOAuth1Authenticator.SigningClass.BuildSignature(FRESTRequest, FOAuth1Authenticator);
+  LTimestamp := FOAuth1Authenticator.timeStamp.DeQuotedString;
+  FRESTRequest.AddParameter('oauth_timestamp', LTimestamp);
+  FRESTRequest.AddParameter('oauth_nonce', LNonce);
+  FRESTRequest.AddParameter('oauth_signature', FLastSignature );
+  FRESTRequest.AddParameter('oauth_signature_method', 'HMAC-SHA1');
+  FRESTRequest.AddParameter('oauth_version', '1.0');
+  FRESTRequest.Execute;
+  FlastResponse := FRESTResponse.JSONText;
+  LMainValue := FRESTResponse.JSONValue;
+  LMainArray := LMainValue as TJSONArray;
+  for LJsonValue in LMainArray do
+   begin
+      AddProduct(LJsonValue as TJSONObject);
+   end;
+end;
+
+//**************  JSON OBJECT -> TWCCategory *************  //
+
+function TWCProductManager.JsonToCategory(AJson: TJSONObject): TWCProductCategory;
+var I: Integer;
+    LCategory: TWCProductCategory;
+begin
+  LCategory.id   := AJson.GetValue<Integer>('id');
+  LCategory.name := AJson.GetValue<string>('name');
+  LCategory.slug := AJson.GetValue<string>('slug');
+  LCategory.parent := AJson.GetValue<integer>('parent');
+  LCategory.description := AJson.GetValue<string>('description');
+  LCategory.display := AJson.GetValue<string>('display');
+//  LCategory.image := AJson.GetValue<string>('slug');
+  LCategory.menu_order := AJson.GetValue<integer>('menu_order');
+  LCategory.count := AJson.GetValue<integer>('count');
+  Result := Lcategory;
+end;
+
+
+procedure TWCProductManager.AddCategory(ACategory: TWCProductCategory);
+begin
+  FCategories.Add(ACategory.id, ACategory);
+end;
+
+procedure TWCProductManager.AddCategory(Ajson: TJSONObject);
+var
+  LCategeroy: TWCProductCategory;
+begin
+  LCategeroy := JsonToCategory(AJson);
+  FCategories.Add(LCategeroy.id, LCategeroy);
+end;
+
+procedure TWCProductManager.DownloadCategories;
+var
+ LMainArray: TJSONArray;
+ LMainValue: TJSONValue;
+ LItem     : TJSONValue;
+ LJsonValue: TJSONValue;
+ LJsonObj: TJSONObject;
+begin
+  FCategories.Clear;
+  Prepare;
+  FRESTClient.BaseURL := FApiBaseUrl + '/wp-json/wc/v3/Products/categories';
+  FRESTRequest.Method := REST.Types.rmGET;
+  OAuth;
+  FRESTRequest.Execute;
+  FlastResponse := FRESTResponse.JSONText;
+  LMainValue := FRESTResponse.JSONValue;
+  LMainArray := LMainValue as TJSONArray;
+  for LJsonValue in LMainArray do
+   begin
+      AddCategory(LJsonValue as TJSONObject);
+   end;
+end;
+
+//************************************************************
+
+procedure TWCProductManager.Prepare;
+begin
+  if Assigned(FRESTRequest) then
+    FRESTRequest.Free;
+
+  if(Assigned(FOAuth1Authenticator)) then
+    FOAuth1Authenticator.Free;
+
+  FRESTRequest := TRESTRequest.Create(nil);
+  FRESTRequest.Client := FRESTClient;
+  FRESTResponse := TRESTResponse.Create(nil);
+  FRESTRequest.Response := FRESTResponse;
+  FOAuth1Authenticator := TOAuth1Authenticator.Create(nil);
+end;
+
+function TWCProductManager.CreateProduct(AProduct: TWCProduct): TWCProduct;
+var
+  LSignature: string;
+  LNonce: string;
+  LTimestamp: string;
+  s: string;
+begin
+  Prepare;
+  LNonce := FOAuth1Authenticator.Nonce;
+  FRESTClient.BaseURL := FApiBaseUrl + '/wp-json/wc/v3/Products';
+  FRESTRequest.Method := REST.Types.rmPost;
+  FOAuth1Authenticator.ConsumerSecret := FApiConsSecret;
+  FRESTRequest.AddParameter('oauth_consumer_key', FApiConsKey);
+  FRESTRequest.AddParameter('oauth_consumer_secret', FApiConsSecret);
+  FRESTRequest.AddParameter('name', AProduct.name);
+  FRESTRequest.AddParameter('type', 'simple');
+  FRESTRequest.AddParameter('regular_price', AProduct.regular_price);
+  FRESTRequest.AddParameter('description', AProduct.description);
+  FRESTRequest.AddParameter('short_description', '');
+  if AProduct.images.Count = 1 then
+  begin
+   if Copy( AProduct.images[0].src, 1, 4) = 'http' then
+      FRESTRequest.AddParameter('images[0][src]', AProduct.images[0].src);
+  end;
+  FLastSignature := FOAuth1Authenticator.SigningClass.BuildSignature(FRESTRequest, FOAuth1Authenticator);
+  LTimestamp := FOAuth1Authenticator.timeStamp.DeQuotedString;
+  FRESTRequest.AddParameter('oauth_timestamp', LTimestamp);
+  FRESTRequest.AddParameter('oauth_nonce', LNonce);
+  FRESTRequest.AddParameter('oauth_signature', FLastSignature );
+  FRESTRequest.AddParameter('oauth_signature_method', 'HMAC-SHA1');
+  FRESTRequest.AddParameter('oauth_version', '1.0');
+  FRESTRequest.Execute;
+  FLastResponse := FRESTResponse.Content;
+end;
+
+function TWCProductManager.ModProduct(Id: integer; AProduct: TWCProduct): TWCProduct;
+var
+  LSignature: string;
+  LNonce: string;
+  LTimestamp: string;
+  s: string;
+begin
+  FRESTRequest.Params.Clear;
+  LNonce := FOAuth1Authenticator.Nonce;
+  FOAuth1Authenticator.ConsumerSecret := FApiConsSecret;
+
+  FRESTClient.BaseURL := FApiBaseUrl + '/wp-json/wc/v3/Products/'+IntToStr(Id);
+  FRESTRequest.Method := REST.Types.rmPost;
+
+
+  FRESTRequest.AddParameter('oauth_consumer_key', FApiConsKey);
+  FRESTRequest.AddParameter('oauth_consumer_secret', FApiConsSecret);
+  FRESTRequest.AddParameter('regular_price', '2500');
+  FRESTRequest.AddParameter('description', '<table><tr><td>asdasdasdasd</td><td>asdasdasdasdsa</td></tr></table>');
+  FLastSignature := FOAuth1Authenticator.SigningClass.BuildSignature(FRESTRequest, FOAuth1Authenticator);
+  LTimestamp := FOAuth1Authenticator.timeStamp.DeQuotedString;
+  FRESTRequest.AddParameter('oauth_timestamp', LTimestamp);
+  FRESTRequest.AddParameter('oauth_nonce', LNonce);
+  FRESTRequest.AddParameter('oauth_signature', FLastSignature );
+  FRESTRequest.AddParameter('oauth_signature_method', 'HMAC-SHA1');
+  FRESTRequest.AddParameter('oauth_version', '1.0');
+  FRESTRequest.Execute;
+  FLastResponse := FRESTResponse.Content;
+end;
+
+  //******************  GETTER SETTER  *****************//
+
+function TWCProductManager.Products: TWCProducts;
+begin
+  Result := FProducts;
+end;
+
+//procedure TWCProductManager.TestProdupdate;
+//var
+//  ht: TIdHTTP;
+//  stream: TStringStream;
+//  retht: TRESTHTTP;
+//  sign, LSignStr , Ltimestamp: string;
+//  Paramlist : TStringList;
+//  LNonce, LParamsStr : string;
+//  i : integer;
+//  jso: TJSONObject;
+//begin
+//  retht := TRESTHTTP.Create;
+//  LTimestamp := FOAuth1Authenticator.timeStamp.DeQuotedString;
+//  LNonce := FOAuth1Authenticator.Nonce;
+//
+//  Paramlist := TStringList.Create;
+//  Paramlist.Values['name'] := 'Teszt 2';
+//  Paramlist.Values['type'] := 'simple';
+//  Paramlist.Values['regular_price'] := '21.99';
+//  Paramlist.Values['description'] := 'description';
+//  Paramlist.Values['images[0][src]'] := 'https://shop.pcunion.hu/image/cache/catalog/pc_k/lenovo-m92p-desktop-800x800.jpg';
+//  Paramlist.Values['short_description'] := 'short_description';
+//  Paramlist.Values['oauth_consumer_secret'] := FApiConsSecret;
+//  Paramlist.Values['oauth_consumer_key'] := FApiConsKey;
+//  Paramlist.Values['oauth_timestamp'] := Ltimestamp;
+//  Paramlist.Values['oauth_nonce'] := LNonce;
+//  Paramlist.Values['oauth_signature_method'] := 'HMAC-SHA1';
+//  Paramlist.Values['oauth_version'] := '1.0';
+//
+//  Paramlist.Sort;
+//    /// Step #2 - build a single string from the params
+//  LParamsStr := '';
+//  for i := 0 to Paramlist.Count - 1 do
+//  begin
+//    LParamsStr := LParamsStr + URIEncode(Paramlist.Names[i]) + '=' + URIEncode(Paramlist.ValueFromIndex[i]);
+//    if (i < Paramlist.Count - 1) then
+//      LParamsStr := LParamsStr + '&';
+//  end;
+//
+//  LSignStr := 'POST' + '&'+ URIEncode(FApiBaseUrl + '/wp-json/wc/v3/Products')+ '&' + URIEncode(LParamsStr);
+//  sign := retht.HashHMACSHA1(LSignStr ,FApiConsSecret + '&');
+//  LParamsStr := LParamsStr + '&oauth_signature=' + URIEncode(sign);
+//
+//  jso := TJSONObject.Create;
+//  for i := 0 to Paramlist.Count - 1 do
+//  begin
+//    jso.AddPair(Paramlist.Names[i], Paramlist.ValueFromIndex[i] );
+//  end;
+//
+//  stream :=  TStringStream.Create(LParamsStr, TEncoding.UTF8);
+//
+//  ht := TIdHTTP.Create();
+//  ht.Request.Method := 'POST';
+//  ht.Request.Connection := 'keep-alive';
+//  ht.Request.ContentLength := stream.Size;
+//  ht.Request.ContentType := 'application/x-www-form-urlencoded';
+//  ht.Request.Host := '192.168.1.7';
+//  ht.Request.Accept := 'application/json';
+//  ht.Request.AcceptCharSet := 'UTF-8';
+//  ht.Request.AcceptEncoding := 'identity';
+//
+//  FlastResponse := ht.Post(FApiBaseUrl + '/wp-json/wc/v3/Products', stream );
+//
+//
+//end;
 
 
 end.

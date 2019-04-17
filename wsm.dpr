@@ -14,7 +14,9 @@ uses
   WSProductCommon in 'WScommon\WSProductCommon.pas',
   WSPCUnionMain in 'WSPCUnion\WSPCUnionMain.pas',
   WSShopCommon in 'WScommon\WSShopCommon.pas',
-  WCRestApi in 'WCRestApi.pas';
+  WCRestApi in 'WCRestApi.pas',
+  frm_pcu_list in 'frm_pcu_list.pas' {Form1},
+  WSMMain in 'WSMMain.pas';
 
 {$R *.res}
 
@@ -22,5 +24,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm1, Form1);
   Application.Run;
 end.

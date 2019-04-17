@@ -172,6 +172,7 @@ begin
       begin
         with Result[ind] do
         begin
+          StringReplace(LHeader[y], #$D, '', [rfReplaceAll, rfIgnoreCase]);
           Values[CleanHTMLTags(StringReplace(LHeader[y], #$FEFF, '', [rfReplaceAll, rfIgnoreCase]))] := CleanHTMLTags( StringReplace(LTemp[y], #$FEFF, '', [rfReplaceAll, rfIgnoreCase]));
         end;
       end;
